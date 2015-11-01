@@ -7,13 +7,9 @@
 
 body {
     position: relative;
-    /* 絶対配置の基準点 */
     font-family: 'Source Han Sans';
     margin: 0;
-    /* スペース */
     font-size: 14px;
-    /* 文字サイズ */
-    /* 行の高さ */
 }
 
 
@@ -30,25 +26,16 @@ body {
 .wrapper {
     width: 720px;
     margin: 0 auto;
-    /* 左右に[auto]を指定することで、真ん中に寄る */
 }
 
 
-/* 全体(デスクトップPCとスマホ)に適用するCSS */
+/*自己紹介*/
 
 .side {
     border-right: 6px solid;
     float: left;
     width: 200px;
     height: 390px;
-    padding-right: 10px;
-}
-
-.main {
-    float: right;
-    width: 480px;
-    height: 600px;
-    padding-left: 10px;
     padding-right: 10px;
 }
 
@@ -68,9 +55,21 @@ body {
 }
 
 
+/*リンク*/
+
+.main {
+    float: right;
+    width: 480px;
+    height: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 /*ボタン*/
 
 .btn {
+    /*角を丸く*/
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -99,7 +98,7 @@ body {
         text-align: center;
         width: 90%;
     }
-    h1{
+    h1 {
         letter-spacing: 12px;
     }
     .side {
@@ -123,6 +122,7 @@ body {
     }
     .introduction {
         width: 520px;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         text-align: left;
