@@ -2,10 +2,65 @@
 <html>
 
 <head>
-
+    <html lang="ja">
     <title>お前の頭くるくるくるっぱ</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+
+
+        <meta charset="UTF-8">
+
+    <script>
+        //時間取得
+        DD = new Date();
+        Day = DD.getDate();
+        Hour = DD.getHours();
+        Minute = DD.getMinutes();
+            //Hour = ;
+            //Minute = ;
+            //Day = ;
+
+
+
+        //偶数日か奇数日かで＾く＾の回転方向を変える
+        if (Day % 2 == 0) {
+            //偶数日 右回転
+            document.write('<link rel="stylesheet" type="text/css" href="./CSS/even.css">');
+        }
+        else {
+            //奇数日 左回転
+            document.write('<link rel="stylesheet" type="text/css" href="./CSS/odd.css">');
+        }
+
+
+        //時間帯で色を変える
+        if (Hour >= 19) {
+            //夜1
+            //19時～23時
+            document.write('<link rel="stylesheet" type="text/css" href="./CSS/Night.css">');
+        } else if (Hour >= 11) {
+            //昼
+            //11時～18時
+            document.write('<link rel="stylesheet" type="text/css" href="./CSS/Noon.css">');
+
+        } else if (Hour >= 4) {
+            //朝
+            //4時～10時
+            document.write('<link rel="stylesheet" type="text/css" href="./CSS/Morning.css">');
+        } else {
+            //夜2
+            //0時～3時
+            document.write('<link rel="stylesheet" type="text/css" href="./CSS/Night.css">');
+        }
+
+
+
+
+        //KonVa
+        if (Hour == 0 && Minute == 00) {
+            alert("KonVa");
+        }
+
+    </script>
 
 </head>
 
@@ -20,7 +75,7 @@
 
     <div class="wrapper">
 
-        <!-- About -->
+        <!-- 自己紹介 -->
         <div class="side">
 
             <h1>-About-</h1>
@@ -34,48 +89,41 @@
             </div>
 
         </div>
-        <!-- Links -->
 
-        <!-- メイン開始 -->
+        <!-- Links -->
         <div class="main">
             <h1>-Links-</h1>
 
 
 
-            <a class="btn Twitter" href="https://twitter.com/kuruppa0616">
+                    <a class="btn Twitter" href="https://twitter.com/kuruppa0616">
 
-                Twitter
+                    Twitter
 
-            </a>
+                </a>
 
-            <a class="btn Youtube" href="http://bookmeter.com/u/562222">
+                    <a class="btn Youtube" href="http://bookmeter.com/u/562222">
 
-                Bookmeter
+                    Bookmeter
 
-            </a>
-
-
-            <a class="btn Youtube" href="https://www.youtube.com/user/kuruppa0616/videos">
-
-                Youtube
-
-            </a>
-
-            <a class="btn NicoNico" href="http://www.nicovideo.jp/user/17150151/video">
-
-                NicoNico
-
-            </a>
+                </a>
 
 
+                    <a class="btn Youtube" href="https://www.youtube.com/user/kuruppa0616/videos">
 
+                    Youtube
 
+                </a>
 
+                    <a class="btn NicoNico" href="http://www.nicovideo.jp/user/17150151/video">
 
+                    NicoNico
+
+                </a>
 
 
         </div>
-        <!-- メインとサイドバーを囲むラッパー終了 -->
+        <!-- ラッパー終了 -->
 
 
 

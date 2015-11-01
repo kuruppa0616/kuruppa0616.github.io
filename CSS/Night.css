@@ -1,0 +1,17 @@
+
+.header {
+    background-color: #6C469A;
+}
+
+.side {
+    /* headrの色と同じ */
+    border-color: #6C469A;
+}
+
+.btn {
+    background-color: #3B60A8;
+}
+
+.btn:hover {
+    background-color: #718DC5;
+}
