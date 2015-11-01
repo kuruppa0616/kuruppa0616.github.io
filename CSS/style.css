@@ -10,7 +10,10 @@ body {
     /* 絶対配置の基準点 */
     font-family: 'Source Han Sans';
     margin: 0;
+    /* スペース */
     font-size: 14px;
+    /* 文字サイズ */
+    /* 行の高さ */
 }
 
 
@@ -27,7 +30,11 @@ body {
 .wrapper {
     width: 720px;
     margin: 0 auto;
+    /* 左右に[auto]を指定することで、真ん中に寄る */
 }
+
+
+/* 全体(デスクトップPCとスマホ)に適用するCSS */
 
 .side {
     border-right: 6px solid;
@@ -92,7 +99,7 @@ body {
         text-align: center;
         width: 90%;
     }
-    h1 {
+    h1{
         letter-spacing: 12px;
     }
     .side {
@@ -119,7 +126,6 @@ body {
         margin-left: auto;
         margin-right: auto;
         text-align: left;
-        letter-spacing: 0px;
         line-height: 0.3;
     }
     .main {
