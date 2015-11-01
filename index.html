@@ -5,9 +5,10 @@
     <html lang="ja">
     <title>お前の頭くるくるくるっぱ</title>
     <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
 
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
 
     <script>
         //時間取得
@@ -15,9 +16,9 @@
         Day = DD.getDate();
         Hour = DD.getHours();
         Minute = DD.getMinutes();
-            //Hour = ;
-            //Minute = ;
-            //Day = ;
+        //Hour = ;
+        //Minute = ;
+        //Day = ;
 
 
 
@@ -25,11 +26,11 @@
         if (Day % 2 == 0) {
             //偶数日 右回転
             document.write('<link rel="stylesheet" type="text/css" href="./CSS/even.css">');
-        }
-        else {
+        } else {
             //奇数日 左回転
             document.write('<link rel="stylesheet" type="text/css" href="./CSS/odd.css">');
         }
+
 
 
         //時間帯で色を変える
@@ -51,15 +52,10 @@
             //0時～3時
             document.write('<link rel="stylesheet" type="text/css" href="./CSS/Night.css">');
         }
-
-
-
-
         //KonVa
         if (Hour == 0 && Minute == 00) {
             alert("KonVa");
         }
-
     </script>
 
 </head>
@@ -79,51 +75,56 @@
         <div class="side">
 
             <h1>-About-</h1>
-            <p><img src="http://www.paper-glasses.com/api/twipi/kuruppa0616/original" alt="プロフ画像" class="profile"></p>
-            <div class="introduction">
-                <p>名前:くるっぱ</p>
-                <p>場所:日本の見えない県</p>
-                <p>好物:ゲーム、ラノベ、アニメ</p>
-                <p>制作:MAD、HP</p>
+            <p><img src="http://www.paper-glasses.com/api/twipi/kuruppa0616/original" alt="profile-pic" class="profile"></p>
 
+            <!--自己紹介文-->
+            <div class="introduction">
+                <p>名前：くるっぱ</p>
+                <p>場所：日本の見えない県</p>
+                <p>好物：ゲーム、ラノベ、アニメ</p>
+                <p>制作：MAD、HP</p>
             </div>
 
         </div>
 
         <!-- Links -->
+
         <div class="main">
             <h1>-Links-</h1>
 
+            <div class="Links">
 
-
-                    <a class="btn Twitter" href="https://twitter.com/kuruppa0616">
+                <a class="btn Twitter" href="https://twitter.com/kuruppa0616">
 
                     Twitter
 
                 </a>
 
-                    <a class="btn Youtube" href="http://bookmeter.com/u/562222">
+                <a class="btn Youtube" href="http://bookmeter.com/u/562222">
 
                     Bookmeter
 
                 </a>
 
 
-                    <a class="btn Youtube" href="https://www.youtube.com/user/kuruppa0616/videos">
+                <a class="btn Youtube" href="https://www.youtube.com/user/kuruppa0616/videos">
 
                     Youtube
 
                 </a>
 
-                    <a class="btn NicoNico" href="http://www.nicovideo.jp/user/17150151/video">
+                <a class="btn NicoNico" href="http://www.nicovideo.jp/user/17150151/video">
 
                     NicoNico
 
                 </a>
 
+            </div>
+
 
         </div>
-        <!-- ラッパー終了 -->
+    </div>
+
 
 
 

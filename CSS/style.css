@@ -5,16 +5,12 @@
     src: url('../font/font.eot?#iefix') format('embedded-opentype'), url('../font/font.woff') format('woff'), url('../font/font.ttf') format('truetype');
 }
 
-
-
-
 body {
+    position: relative;
+    /* 絶対配置の基準点 */
     font-family: 'Source Han Sans';
     margin: 0;
-    /* スペース */
     font-size: 14px;
-    /* 文字サイズ */
-    /* 行の高さ */
 }
 
 
@@ -22,8 +18,7 @@ body {
 
 .header {
     text-align: center;
-    padding-top: 5px;
-
+    padding-top: 6px;
 }
 
 
@@ -32,17 +27,15 @@ body {
 .wrapper {
     width: 720px;
     margin: 0 auto;
-    /* 左右に[auto]を指定することで、真ん中に寄る */
 }
 
-@media screen and ( max-width:479px) {
-    .wrapper {
-        width: auto;
-    }
+.side {
+    border-right: 6px solid;
+    float: left;
+    width: 200px;
+    height: 390px;
+    padding-right: 10px;
 }
-
-
-/* 全体(デスクトップPCとスマホ)に適用するCSS */
 
 .main {
     float: right;
@@ -52,41 +45,9 @@ body {
     padding-right: 10px;
 }
 
-.side {
-
-    border-right: 3px solid;
-    float: left;
-    width: 200px;
-    height: 390px;
-    padding-right: 10px;
-}
-
 .introduction {
     line-height: 0.6;
 }
-
-@media screen and ( max-width:1024px) {
-    .main {
-
-        padding: 0;
-        float: none;
-        border: none;
-    }
-    .side {
-        width: auto;
-        float: none;
-        border: none;
-    }
-}
-
-
-@media screen and ( max-width:435px) {
-    .main {
-        width: auto;
-    }
-
-}
-
 
 
 /*プロフォール画像*/
@@ -94,30 +55,26 @@ body {
 .profile {
     width: 200px;
     height: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
 }
-
-
-
 
 
 /*ボタン*/
 
-.Links{
-    padding-left: 10px;
-    padding-top: 20px
-}
-
 .btn {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     letter-spacing: 3px;
-    float: left;
     font-size: 23px;
     display: inline-block;
     width: 200px;
     height: auto;
     text-align: center;
     text-decoration: none;
-    line-height: 54px;
-
+    padding: 15px;
     color: #FFF;
     margin-right: 4px;
     margin-left: 4px;
@@ -125,3 +82,65 @@ body {
 }
 
 
+/*スマホ用*/
+
+@media screen and ( max-width:1024px) {
+    body {
+        font-size: 36px;
+    }
+    .wrapper {
+        text-align: center;
+        width: 90%;
+    }
+    h1 {
+        letter-spacing: 12px;
+    }
+    .side {
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-top: -48px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+        float: none;
+        border: none;
+    }
+    .profile {
+        margin-top: -65px;
+        width: 300px;
+        height: auto;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+    }
+    .introduction {
+        width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        letter-spacing: 0px;
+        line-height: 0.3;
+    }
+    .main {
+        margin-top: -30px;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .Links {
+        margin-top: -40px;
+        text-align: center;
+    }
+    .btn {
+        padding: 25px;
+        width: 80%;
+        font-size: 50px;
+        letter-spacing: 10px;
+        margin-right: 0px auto;
+        margin-left: 0px auto;
+        margin-bottom: 20px;
+    }
+}
