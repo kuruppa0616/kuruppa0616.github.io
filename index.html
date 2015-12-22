@@ -23,7 +23,7 @@
 <head>
     <html lang="ja">
     <title>お前の頭くるくるくるっぱ</title>
-    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    
     <link rel="SHORTCUT ICON" href="./favicon.ico">
 
 
@@ -31,6 +31,35 @@
     <meta charset="UTF-8">
 
     <script>
+        //UA取得
+        var _ua = (function(u){
+            return {
+                Tablet:(u.indexOf("windows") != -1 && u.indexOf("touch") != -1 && u.indexOf("tablet pc") == -1) 
+                || u.indexOf("ipad") != -1
+                || (u.indexOf("android") != -1 && u.indexOf("mobile") == -1)
+                || (u.indexOf("firefox") != -1 && u.indexOf("tablet") != -1)
+                || u.indexOf("kindle") != -1
+                || u.indexOf("silk") != -1
+                || u.indexOf("playbook") != -1,
+                Mobile:(u.indexOf("windows") != -1 && u.indexOf("phone") != -1)
+                || u.indexOf("iphone") != -1
+                || u.indexOf("ipod") != -1
+                || (u.indexOf("android") != -1 && u.indexOf("mobile") != -1)
+                || (u.indexOf("firefox") != -1 && u.indexOf("mobile") != -1)
+                || u.indexOf("blackberry") != -1
+            }
+        })(window.navigator.userAgent.toLowerCase());
+        //UAでCSS振り分け
+        if(_ua.Mobile){
+            document.write('<link rel="stylesheet" type="text/css" href="./CSS/Mobile.css">');
+        }if(_ua.Tablet){
+            document.write('<link rel="stylesheet" type="text/css" href="./CSS/Mobile.css">');
+        }else{
+            document.write('<link rel="stylesheet" type="text/css" href="./CSS/style.css">');
+        }
+        
+        
+        
         //時間取得
         DD = new Date();
         Day = DD.getDate();

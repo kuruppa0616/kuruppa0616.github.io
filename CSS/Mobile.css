@@ -88,9 +88,10 @@ body {
 }
 
 
-/*スマホ用*/
 
-@media screen and ( max-width:720px) {
+
+/*スマホ用*/
+@media screen and (orientation: portrait) {
     body {
         font-size: 36px;
     }
