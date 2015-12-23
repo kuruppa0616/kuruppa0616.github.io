@@ -88,10 +88,9 @@ body {
 }
 
 
+/*横画面*/
 
-
-/*スマホ用*/
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait)  {
     body {
         font-size: 36px;
     }
