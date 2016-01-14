@@ -1,8 +1,13 @@
 @charset "utf-8";
-@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@font-face {
+    font-family: 'Source Han Sans';
+    font-style: normal;
+    src: url('../font/font.eot');
+    src: url('../font/font.eot?#iefix') format('embedded-opentype'), url('../font/font.woff') format('woff'), url('../font/font.ttf') format('truetype');
+}
 body {
     position: relative;
-    font-family: 'Noto Sans Japanese', serif;
+    font-family: 'Source Han Sans';
     margin: 0;
     font-size: 14px;
 }
