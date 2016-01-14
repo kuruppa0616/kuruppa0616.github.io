@@ -205,6 +205,17 @@
 }
 
 .post-content {
+    a{
+        color: $brand-color;
+        text-decoration: none;
+        &:visited {
+            color: darken($brand-color, 15%);
+        }
+        &:hover {
+            color: $text-color;
+            text-decoration: underline;
+        }
+    }
     margin-bottom: $spacing-unit;
 
     h2 {

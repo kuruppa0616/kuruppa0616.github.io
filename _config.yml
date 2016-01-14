@@ -28,8 +28,7 @@ change_frequency_name: "daily"
 priority_name: "0.5"
 
 # Build settings
-markdown: kramdown
-
+markdown: redcarpet
 
 paginate: 3
 
