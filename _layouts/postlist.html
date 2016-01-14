@@ -19,7 +19,7 @@ layout: default
             {% for post in site.posts %}
             <article class="post">
 
-                <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncatewords: 5 }}</a><span class="post_data">{{ post.date | date: "%Y  - %m - %-d" }}</span>
+                <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.excerpt | truncate: 20 }}</a><span class="post_data">{{ post.date | date: "%Y  - %m - %-d" }}</span>
 
 
                 <div class="posts_text">
