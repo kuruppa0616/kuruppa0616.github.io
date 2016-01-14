@@ -1,65 +1,8 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Your awesome title</title>
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description. baseurl: "http://kuruppa0616.github.io/" # the subpath of your site, e.g. /blog
-">
-
-    <link rel="stylesheet" href=" /css/main.css ">
-
-
-    <link rel="canonical" href="http://kuruppa0616.github.io//">
-    <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://kuruppa0616.github.io/ /feed.xml ">
-</head>
-
-
-<body>
-
-    <!--    <header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="/">Your awesome title</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-        
-          
-        
-          
-          <a class="page-link" href="/postlist/">記事一覧</a>
-          
-        
-      </div>
-    </nav>
-
-  </div>
-
-</header>
--->
-    <div class="header" id="header">
-        <a class="page-link" href="/">
-            <img src="/logo.svg" class="logo" id="logo">
-        </a>
-    </div>
-
-
-    <div class="wrapper" id="sa">
+<div class="wrapper" id="sa">
 
     <!-- プロフィール -->
     <div class="profile" id="profile">
@@ -144,22 +87,21 @@
         <h1 class="">-Articles-</h1>
 
     <ul class="post-list">
-        
+        {% for post in paginator.posts %}
         <article class="post">
 
-            <a class="post-link" href="/2016/01/13/HelloWorld.html">HelloWorld</a><span class="post_data">2016  - 01 - 13</span>
+            <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncatewords: 5 }}</a><span class="post_data">{{ post.date | date: "%Y  - %m - %-d" }}</span>
             
 
             <div class="posts_text">
-                <div><p>こんっにちは～</p>
-</div>
+                <div>{{ post.excerpt | truncatewords: 30 }}</div>
                 
             </div>
 
        
 
         </article>
-        
+        {% endfor %}
         
     </ul>
         
@@ -170,82 +112,3 @@
 </div>
 
 
-
-
-
-
-   
-
-    <script type="text/javascript">
-        //時間取得
-        DD = new Date();
-        Day = DD.getDate();
-        Hour = DD.getHours();
-        Minute = DD.getMinutes();
-        //Hour = 7;
-        //Minute = ;
-        //Day = 1;
-
-        if (Day % 2 == 0) {
-            //偶数日 右回転
-            document.getElementById("logo").className = "logo logo_even";
-        } else {
-            //奇数日 左回転
-            document.getElementById("logo").className = "logo logo_odd";
-        }
-
-
-        //時間帯で色を変える
-        if (Hour >= 19) {
-            //夜1
-            //19時～23時
-            document.getElementById("header").className = "header header_night";
-            document.getElementById("profile").className = "profile profile_night";
-            document.getElementById("btn_Twitter").className = "btn btn_night";
-            document.getElementById("btn_Bookmeter").className = "btn btn_night";
-            document.getElementById("btn_YouTube").className = "btn btn_night";
-            document.getElementById("btn_NicoNico").className = "btn btn_night";
-            
-        } else if (Hour >= 11) {
-            //昼
-            //11時～18時
-            document.getElementById("header").className = "header header_noon";
-            document.getElementById("profile").className = "profile profile_noon";
-            document.getElementById("btn_Twitter").className = "btn btn_noon";
-            document.getElementById("btn_Bookmeter").className = "btn btn_noon";
-            document.getElementById("btn_YouTube").className = "btn btn_noon";
-            document.getElementById("btn_NicoNico").className = "btn btn_noon";
-            
-
-        } else if (Hour >= 4) {
-            //朝
-            //4時～10時
-            document.getElementById("header").className = "header header_morning";
-            document.getElementById("profile").className = "profile profile_morning";
-            document.getElementById("btn_Twitter").className = "btn btn_morning";
-            document.getElementById("btn_Bookmeter").className = "btn btn_morning";
-            document.getElementById("btn_YouTube").className = "btn btn_morning";
-            document.getElementById("btn_NicoNico").className = "btn btn_morning";
-            
-
-        } else {
-            //夜2
-            //0時～3時
-            document.getElementById("header").className = "header header_night";
-            document.getElementById("profile").className = "profile profile_night";
-            document.getElementById("btn_Twitter").className = "btn btn_night";
-            document.getElementById("btn_Bookmeter").className = "btn btn_night";
-            document.getElementById("btn_YouTube").className = "btn btn_night";
-            document.getElementById("btn_NicoNico").className = "btn btn_night";
-            
-        }
-
-        //KonVa
-        if (Hour == 0 && Minute == 00) {
-            alert("KonVa");
-        }
-    </script>
-
-</body>
-
-</html>

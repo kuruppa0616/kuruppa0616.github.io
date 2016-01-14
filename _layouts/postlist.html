@@ -1,0 +1,46 @@
+--- 
+layout: default 
+---
+<div class="wrapper">
+    
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+    
+    <div class="articles">
+
+        
+
+        <ul class="post-list">
+            {% for post in site.posts %}
+            <article class="post">
+
+                <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncatewords: 5 }}</a><span class="post_data">{{ post.date | date: "%Y  - %m - %-d" }}</span>
+
+
+                <div class="posts_text">
+                    <div>{{ post.excerpt | truncatewords: 30 }}</div>
+
+                </div>
+
+
+
+            </article>
+            {% endfor %}
+        </ul>
+
+    </div>
+    
+
+    
+
+    
+    
+  
+    
+
+</div>
