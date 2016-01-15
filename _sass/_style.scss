@@ -5,11 +5,13 @@
     src: url('../font/font.eot');
     src: url('../font/font.eot?#iefix') format('embedded-opentype'), url('../font/font.woff') format('woff'), url('../font/font.ttf') format('truetype');
 }
+
 body {
     position: relative;
     font-family: 'Source Han Sans';
-    margin: 0;
+    margin: 0 auto;
     font-size: 14px;
+    
 }
 
 
@@ -155,6 +157,7 @@ body {
     width: 720px;
     height: 390px;
     margin: 0 auto;
+    
 }
 
 
@@ -166,6 +169,7 @@ body {
     width: 200px;
     height: 390px;
     padding-right: 10px;
+    
 }
 
 .profile_morning {
@@ -286,10 +290,12 @@ body {
     width: 360px;
 }
 
-.article_midashi {}
+.post{
+    border-bottom: 3px solid;
+}
 
 .post-link {
-    font-size: 30px;
+    font-size: 25px;
     margin-right: 20px;
     color: $brand-color;
     text-decoration: none;
@@ -301,6 +307,9 @@ body {
         text-decoration: underline;
     }
 }
+.post_data{
+    margin-left: 400px;
+}
 
 .posts_text {
     font-size: 16px;
@@ -309,7 +318,8 @@ body {
 }
 
 .post {
-    border-bottom: 10px;
+    border-bottom: 1px solid;
+    border-color: $grey-color ;
 }
 
 .andmore {
@@ -341,7 +351,8 @@ body {
 .post-link-index {
     font-size: 15px;
 }
-.page-link{
+
+.page-link {
     font-size: 15px;
     margin-right: 14px;
     color: $brand-color;
@@ -353,25 +364,23 @@ body {
         color: $text-color;
         text-decoration: underline;
     }
-    
 }
 
 
 /*スマホ用*/
 
 @media screen and ( max-width:720px) {
-    body {}
     .wrapper {
         text-align: center;
         width: 80%;
         height: 100%;
+        padding-right: 20px;
     }
     h1 {
         letter-spacing: 12px;
     }
     .profile {
         width: 100%;
-        text-align: center;
         height: auto;
         padding-top: 0px;
         padding-right: 10px;
@@ -387,18 +396,15 @@ body {
         -moz-border-radius: 30px;
     }
     .introduction {
-        font-size: 20px;
-        width: 480px;
+        font-size: 15px;
+        width: 210px;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         text-align: left;
         letter-spacing: -2px;
         line-height: 0.3;
     }
     .links {
-        padding-right: 10px;
-        padding-left: 10px;
         width: 100%;
         height: auto;
         float: none;
@@ -407,9 +413,9 @@ body {
         text-align: center;
     }
     .btn {
-        padding: 25px;
+        padding: 8px;
         width: 80%;
-        height: 20%;
+        height: 5%;
         font-size: 30px;
         letter-spacing: 10px;
         margin-right: 0px auto;
@@ -422,7 +428,22 @@ body {
     .btn_above {
         padding-bottom: 0px
     }
-    .andmore{
-        margin-left: 0px; 
+    .andmore {
+        margin-left: 0px;
+    }
+    .wrapper-post {
+        text-align: left;
+    }
+    .post_data{
+        margin-left: 0px;
+        text-align: right
+    }
+    .posts_text {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .post-content {
+        font-size: 100%;
     }
 }
