@@ -370,6 +370,11 @@ body {
 /*スマホ用*/
 
 @media screen and ( max-width:720px) {
+    .logo {
+      
+        width: 32px;
+        height: 32px;
+    }
     .wrapper {
         text-align: center;
         width: 80%;
@@ -401,7 +406,7 @@ body {
         height: auto;
         margin: 0 auto;
         text-align: left;
-        letter-spacing: -2px;
+        letter-spacing: 0px;
         line-height: 0.3;
     }
     .links {
@@ -444,13 +449,9 @@ body {
         
     }
     .post{
-        margin-left: -10px;
+        margin-left: -13px;
     }
-    .posts_text {
-        font-size: 16px;
-        margin-top: 10px;
-        margin-left: 0px;
-    }
+  
     .post-content {
         font-size: 100%;
     }
