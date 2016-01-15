@@ -63,4 +63,4 @@ SCSS勉強すればもうちょっとコードの効率化できると思うの�
 
 <blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p lang="ja" dir="ltr">【速報】大ヒット上映中の「劇場版」ですが、何と昨日段階で興行収入9億円を突破！御礼と致しまして、1月30日から「ダブル生コマフィルム」（2つセット）の配布が決定！<a href="https://t.co/fJGhQzcBdH">https://t.co/fJGhQzcBdH</a> <a href="https://twitter.com/hashtag/garupan?src=hash">#garupan</a> <a href="https://t.co/XruHZdEhCi">pic.twitter.com/XruHZdEhCi</a></p>&mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) <a href="https://twitter.com/garupan/status/687921430667853828">2016, 1月 15</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-9億おめでとうございます
+9億おめでとうございます  

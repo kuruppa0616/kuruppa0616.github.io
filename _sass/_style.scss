@@ -429,7 +429,7 @@ body {
         padding-bottom: 0px
     }
     .andmore {
-        margin-left: 0px;
+        margin-left: 20px;
     }
     .wrapper-post {
         text-align: left;
@@ -438,6 +438,14 @@ body {
         margin-left: 0px;
         text-align: right
     }
+    .post-link{
+        margin: 0px;
+        
+        
+    }
+    .post{
+        margin-left: -10px;
+    }
     .posts_text {
         font-size: 16px;
         margin-top: 10px;
@@ -445,5 +453,11 @@ body {
     }
     .post-content {
         font-size: 100%;
+    }
+    .articles{
+        margin: 0 auto;
+    }
+    .articles-title{
+        margin-left: 25px;
     }
 }
