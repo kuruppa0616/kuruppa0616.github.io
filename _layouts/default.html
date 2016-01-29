@@ -1,108 +1,130 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="FAPuB9CpIiyKxTVx8nqG42VIHzSDcQ32tY0ElNS5jOo" />
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <!--     OGP-->
 
-    <link rel="stylesheet" href="{{ " /css/main.css " | prepend: site.baseurl }}">
-
-
-
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!--    type,title,url-->
+    {% if page.title %}
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="{{ site.title }}/{{ page.title }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines | truncate: 50}}" /> {% else %}
+    <meta property="og:type" content="blog" />
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:description" content="{{ site.description }}" /> 
+    {% endif %}
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:image" content="{{ site.baseurl }}/logo.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+    
+<!--    Twitter-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@kuruppa0616">
     
 
-
-<body>
-
-   
-    <div class="header" id="header">
-        <a class="page-link" href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/logo.svg" class="logo" id="logo">
-        </a>
-    </div>
-
-
-    {{ content }}
+    <link rel="stylesheet" href="{{ " /css/main.css " | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 
 
-   
-
-    <script type="text/javascript">
-        //時間取得
-        DD = new Date();
-        Day = DD.getDate();
-        Hour = DD.getHours();
-        Minute = DD.getMinutes();
-        //Hour = 7;
-        //Minute = ;
-        //Day = 1;
-
-        if (Day % 2 == 0) {
-            //偶数日 右回転
-            document.getElementById("logo").className = "logo logo_even";
-        } else {
-            //奇数日 左回転
-            document.getElementById("logo").className = "logo logo_odd";
-        }
 
 
-        //時間帯で色を変える
-        if (Hour >= 19) {
-            //夜1
-            //19時～23時
-            document.getElementById("header").className = "header header_night";
-            document.getElementById("profile").className = "profile profile_night";
-            document.getElementById("btn_Twitter").className = "btn btn_night";
-            document.getElementById("btn_Bookmeter").className = "btn btn_night";
-            document.getElementById("btn_YouTube").className = "btn btn_night";
-            document.getElementById("btn_NicoNico").className = "btn btn_night";
-            
-        } else if (Hour >= 11) {
-            //昼
-            //11時～18時
-            document.getElementById("header").className = "header header_noon";
-            document.getElementById("profile").className = "profile profile_noon";
-            document.getElementById("btn_Twitter").className = "btn btn_noon";
-            document.getElementById("btn_Bookmeter").className = "btn btn_noon";
-            document.getElementById("btn_YouTube").className = "btn btn_noon";
-            document.getElementById("btn_NicoNico").className = "btn btn_noon";
-            
 
-        } else if (Hour >= 4) {
-            //朝
-            //4時～10時
-            document.getElementById("header").className = "header header_morning";
-            document.getElementById("profile").className = "profile profile_morning";
-            document.getElementById("btn_Twitter").className = "btn btn_morning";
-            document.getElementById("btn_Bookmeter").className = "btn btn_morning";
-            document.getElementById("btn_YouTube").className = "btn btn_morning";
-            document.getElementById("btn_NicoNico").className = "btn btn_morning";
-            
+    <body>
 
-        } else {
-            //夜2
-            //0時～3時
-            document.getElementById("header").className = "header header_night";
-            document.getElementById("profile").className = "profile profile_night";
-            document.getElementById("btn_Twitter").className = "btn btn_night";
-            document.getElementById("btn_Bookmeter").className = "btn btn_night";
-            document.getElementById("btn_YouTube").className = "btn btn_night";
-            document.getElementById("btn_NicoNico").className = "btn btn_night";
-            
-        }
 
-        //KonVa
-        if (Hour == 0 && Minute == 00) {
-            alert("KonVa");
-        }
-    </script>
+        <div class="header" id="header">
+            <a class="page-link" href="{{ site.baseurl }}/">
+                <img src="{{ site.baseurl }}/logo.svg" class="logo" id="logo">
+            </a>
+        </div>
 
-</body>
+
+        {{ content }}
+
+
+
+
+
+        <script type="text/javascript">
+            //時間取得
+            DD = new Date();
+            Day = DD.getDate();
+            Hour = DD.getHours();
+            Minute = DD.getMinutes();
+            //Hour = 7;
+            //Minute = ;
+            //Day = 1;
+
+            if (Day % 2 == 0) {
+                //偶数日 右回転
+                document.getElementById("logo").className = "logo logo_even";
+            } else {
+                //奇数日 左回転
+                document.getElementById("logo").className = "logo logo_odd";
+            }
+
+
+            //時間帯で色を変える
+            if (Hour >= 19) {
+                //夜1
+                //19時～23時
+                document.getElementById("header").className = "header header_night";
+                document.getElementById("profile").className = "profile profile_night";
+                document.getElementById("btn_Twitter").className = "btn btn_night";
+                document.getElementById("btn_Bookmeter").className = "btn btn_night";
+                document.getElementById("btn_YouTube").className = "btn btn_night";
+                document.getElementById("btn_NicoNico").className = "btn btn_night";
+
+            } else if (Hour >= 11) {
+                //昼
+                //11時～18時
+                document.getElementById("header").className = "header header_noon";
+                document.getElementById("profile").className = "profile profile_noon";
+                document.getElementById("btn_Twitter").className = "btn btn_noon";
+                document.getElementById("btn_Bookmeter").className = "btn btn_noon";
+                document.getElementById("btn_YouTube").className = "btn btn_noon";
+                document.getElementById("btn_NicoNico").className = "btn btn_noon";
+
+
+            } else if (Hour >= 4) {
+                //朝
+                //4時～10時
+                document.getElementById("header").className = "header header_morning";
+                document.getElementById("profile").className = "profile profile_morning";
+                document.getElementById("btn_Twitter").className = "btn btn_morning";
+                document.getElementById("btn_Bookmeter").className = "btn btn_morning";
+                document.getElementById("btn_YouTube").className = "btn btn_morning";
+                document.getElementById("btn_NicoNico").className = "btn btn_morning";
+
+
+            } else {
+                //夜2
+                //0時～3時
+                document.getElementById("header").className = "header header_night";
+                document.getElementById("profile").className = "profile profile_night";
+                document.getElementById("btn_Twitter").className = "btn btn_night";
+                document.getElementById("btn_Bookmeter").className = "btn btn_night";
+                document.getElementById("btn_YouTube").className = "btn btn_night";
+                document.getElementById("btn_NicoNico").className = "btn btn_night";
+
+            }
+
+            //KonVa
+            if (Hour == 0 && Minute == 00) {
+                alert("KonVa");
+            }
+        </script>
+
+    </body>
 
 </html>
