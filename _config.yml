@@ -8,15 +8,12 @@
 # Site settings
 title: やーいお前の頭くるくるくるっぱ
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  時々MADとかWEBサイトを作っていて、頭がくるくるしてるとか言われてるくるっぱのブログです。いつもはラノベとアニメで時間を潰しています。
   baseurl: "http://kuruppa0616.github.io/" # the subpath of your site, e.g. /blog
 url: "http://kuruppa0616.github.io/" # the base hostname & protocol for your site
 
 
-sitemap:
-file: "/sitemap.xml"
+
 exclude:
 - "/atom.xml"
 - "/feed.xml"
@@ -33,3 +30,4 @@ paginate: 3
 
 gems:
 - jekyll-paginate
+- jekyll-sitemap
