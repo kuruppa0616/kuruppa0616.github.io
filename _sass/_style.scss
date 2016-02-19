@@ -290,9 +290,17 @@ body {
     width: 360px;
 }
 
-.post{
-    border-bottom: 3px solid;
+hr {
+    border: 0;
+    background-color:$grey-color-light;
+    max-width: 90%;
+   
+    box-sizing: border-box;
+    height: 1px;
 }
+
+
+
 
 .post-link {
     font-size: 25px;
@@ -317,10 +325,7 @@ body {
     margin-left: 20px;
 }
 
-.post {
-    border-bottom: 1px solid;
-    border-color: $grey-color ;
-}
+
 
 .andmore {
     font-size: 15px;

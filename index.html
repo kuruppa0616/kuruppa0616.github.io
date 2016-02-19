@@ -9,7 +9,7 @@ layout: default
 
         <h1>-About-</h1>
         <p><img src="http://ketunoana.herokuapp.com/icon?screen_name= kuruppa0616" alt="profile-pic" class="profile-pic"></p>
-        Special Thanks lemon
+<!--        Special Thanks lemon-->
 
         <!--自己紹介文-->
         <div class="introduction">
@@ -92,8 +92,9 @@ layout: default
         <article class="post">
 
             <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <br>
+            
             <div class="post_data">{{ post.date | date: "%Y  - %m - %-d" }}</div>
+            <hr >
 
         </article>
         {% endfor %}
