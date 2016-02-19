@@ -4,6 +4,7 @@ title: "僕の通知bot、@krp_kuについて"
 date: 2016-02-19
 category: other
 ---
+こんにちはおやすみなさい
 ###[@krp_ku](https://twitter.com/krp_ku)について  
 <a class="twitter-timeline" href="https://twitter.com/krp_ku" data-widget-id="700594239520923649">@krp_kuさんのツイート</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>  

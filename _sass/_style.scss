@@ -7,12 +7,16 @@
 }
 
 body {
+    background-color: #F5F5F5;
     position: relative;
     font-family: 'Source Han Sans';
+    color: #262626;
     margin: 0 auto;
     font-size: 14px;
     
 }
+
+
 
 
 /* ヘッダー */
@@ -188,11 +192,28 @@ body {
 }
 
 .introduction {
-    line-height: 0.6;
+    font-size: 15px;
+    line-height: 1.8;
+    
+}
+.moreprofile{
+    font-size: 16px;
+    margin-left: 90px;
+    color: $brand-color;
+    text-decoration: none;
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
 }
 
 
 /*プロフォール画像*/
+
+
 
 .profile-pic {
     width: 200px;
@@ -412,7 +433,11 @@ hr {
         margin: 0 auto;
         text-align: left;
         letter-spacing: 0px;
-        line-height: 0.3;
+        line-height: 1.5;
+    }
+    .moreprofile{
+        font-size: 16px;
+        margin-left: 50px;
     }
     .links {
         width: 100%;
@@ -466,4 +491,8 @@ hr {
     .articles-title{
         margin-left: 25px;
     }
+}
+
+.post-list-a {
+    text-align: left
 }

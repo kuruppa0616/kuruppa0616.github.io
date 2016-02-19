@@ -8,10 +8,15 @@ layout: default
     <div class="profile" id="profile">
 
         <h1>-About-</h1>
-        <p><img src="http://ketunoana.herokuapp.com/icon?screen_name= kuruppa0616" alt="profile-pic" class="profile-pic"></p>
+        <p>
+            <a href="/Profile/">
+               
+                <img src="./Profile.jpg" alt="profile-pic" class="profile-pic">
+                
+            </a>
+        </p>
 
-<!--        Special Thanks lemon-->
-
+      
 
         <!--自己紹介文-->
         <div class="introduction">
@@ -19,10 +24,12 @@ layout: default
             <p>場所：日本の見えない県</p>
             <p>好物：ゲーム、ラノベ、アニメ</p>
             <p>制作：MAD、HP</p>
+            <a class="moreprofile" href="/postlist/">more profile...</a>
+            
         </div>
 
     </div>
-
+    
     <!-- Links -->
 
     <div class="links">
@@ -84,27 +91,27 @@ layout: default
 
 
     </div>
-    
+
     <div class="articles">
-    
+
         <h1 class="articles-title">-Articles-</h1>
 
-    <ul class="post-list">
-        {% for post in paginator.posts %}
-        <article class="post">
+        <ul class="post-list">
+            {% for post in paginator.posts %}
+            <article class="post">
 
-            <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            
-            <div class="post_data">{{ post.date | date: "%Y  - %m - %-d" }}</div>
-            <hr >
+                <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 
-        </article>
-        {% endfor %}
-        
-    </ul>
-        
+                <div class="post_data">{{ post.date | date: "%Y - %m - %-d" }}</div>
+                <hr>
+
+            </article>
+            {% endfor %}
+
+        </ul>
     </div>
-    <a class="andmore" href="/postlist/">and more...</a>
+    <a class="andmore" href="/postlist/">more articles...</a>
+    
    
     
 </div>
