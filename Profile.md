@@ -3,7 +3,7 @@ layout: Profile
 title: Profile
 permalink: /Profile/
 ---
-##Status
+## Status
 + **名前** : くるっぱ
 
 + **性別** : 男 
@@ -17,7 +17,7 @@ permalink: /Profile/
 ****
 
   
-##Account
+## Account  
 + [**Twitter**](https://twitter.com/kuruppa0616)
 
 + [**Youtube**](https://www.youtube.com/user/kuruppa0616)
@@ -34,7 +34,8 @@ permalink: /Profile/
     
 ****
 
-##Favorite
+## Favorite
+(2016/02/20現在)
 
 + **ゲーム**
 
@@ -76,11 +77,11 @@ permalink: /Profile/
 
 ****
 
-##Skill
-+ ** MAD **
+## Skill
++ **MAD**
     + AfterEffects
     + Cinema4D
-+ ** WEB **
++ **WEB**
     + HTML
     + CSS
     

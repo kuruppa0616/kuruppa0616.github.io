@@ -4,12 +4,13 @@ title: "2015年見たアニメをまとめる"
 date: 2016-01-30
 category: Anime
 ---
-####I★MA★SA★RA  
+### I★MA★SA★RA
+
 せっかくブログ作ったんだし暇だしなんか書きたいよね  
 誰かがアニメの振り返り記事書いてるの見て便乗した感じ  
 あまり覚えてない奴もあるんでさくっと  
 
-##<span style="color:#1253A4">冬</span>季見たやつ<span style="color:#1253A4">☃</span>
+## <span style="color:#1253A4">冬</span>季見たやつ<span style="color:#1253A4">☃</span>
 
 ***一覧***  
 
@@ -35,7 +36,7 @@ MADも作って凄い期待してたアルドノアはハードル上げすぎ�
 
  
 
-##<span style="color:#ECB935">春</span>季見たの<span style="color:#ECB935">🌸</span>  
+## <span style="color:#ECB935">春</span>季見たの<span style="color:#ECB935">🌸</span>  
 ***一覧***
 
 <ul>
@@ -64,7 +65,7 @@ fateは相変わらずの変態作画をキープしてて逆に怖かった。v
 シドニアは1期よりクオリティー上がってて映画かよってずっと言ってた。相変わらずのSEで耳が幸せ。幸耳。3期待ってる  
 グリザイアは原作のダメなところをうまく修正して大変満足。マキナの狙撃シーンは鳥肌が
 
-##<span style="color:#FF6860">夏</span>季の奴<span style="color:#FF6860">🍧</span>  
+## <span style="color:#FF6860">夏</span>季の奴<span style="color:#FF6860">🍧</span>  
 ***一覧***
 <ul>
 	<li>わかば＊ガール</li>
@@ -88,7 +89,7 @@ Charlotteは終盤が全てをダメにした。マフィア来たあたりか�
 GEは作画は流石のufotableって感じだったけど特別が多すぎて。アリサの乳ばっか眺めてた  
 イリヤはただの神アニメだった。先頭も期待を超えるクオリティーでやってくれて大変満足です。4期もやるみたいだけどルビーだったかの声優さんが亡くなってしまったみたいなのでちょっと心配
 
-##<span style="color:#F8823C">秋</span>季の物<span style="color:#F8823C">🍁</span>  
+## <span style="color:#F8823C">秋</span>季の物<span style="color:#F8823C">🍁</span>  
 ***一覧***
 
 <ul>
