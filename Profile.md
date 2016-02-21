@@ -34,6 +34,19 @@ permalink: /Profile/
     
 ****
 
+## Skill
++ **MAD動画**
+    + AfterEffects
+    + Cinema4D
++ **WEB**
+    + HTML
+    + CSS
+
+****
+
+## Works
+
+
 ## Favorite
 (2016/02/20現在)
 
@@ -41,27 +54,28 @@ permalink: /Profile/
 
     + 科学ADVシリーズ(チヨスタ)
     
-    + 駅メモ
+    + ノベルゲーム
     
-    + Minecraft
-
+    + Minecraft  
+<br>
 + **アニメ**
 
-    + Steins;Gate（神）
-    + ガールズパンツァー
+    + Steins;Gate  
+<br>
     
 + **ラノベ**
 
     + とある魔術の禁書目録
     + 終末なにしてますか? 忙しいですか? 救ってもらっていいですか?
-    + クロックワーク・プラネット
-    
+    + クロックワーク・プラネット  
+<br>    
 + **なろう小説**
     
     + Re:ゼロから始める異世界生活
-    + 異世界迷宮の最深部を目指そう
-    + へんじがない。ただの偽勇者のようだ。
+    + 異世界迷宮の最深部を目指そう  
     
+<br>
+
 + **音楽**
     + 邦楽
         + アニソン
@@ -77,12 +91,5 @@ permalink: /Profile/
 
 ****
 
-## Skill
-+ **MAD**
-    + AfterEffects
-    + Cinema4D
-+ **WEB**
-    + HTML
-    + CSS
-    
+
     

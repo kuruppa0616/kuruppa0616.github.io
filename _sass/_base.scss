@@ -32,12 +32,12 @@ body {
  */
 h1, h2, h3, h4, h5, h6,
 blockquote, pre,
-ul, ol, dl, figure,
+ figure,
 %vertical-rhythm {
     margin-top: $spacing-unit / 3;
     margin-bottom: $spacing-unit / 4;
 }
-li{
+ul, ol, dl,li{
     margin-bottom: 3px;
     margin-top: 3px;
 }
