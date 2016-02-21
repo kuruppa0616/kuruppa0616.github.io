@@ -406,10 +406,15 @@ hr {
     }
     .wrapper {
         text-align: center;
-        width: 80%;
+        width: 90%;
         height: 100%;
+        margin: 0 auto;
+        
+    }
+    .top{
         padding-right: 20px;
     }
+    
     h1 {
         letter-spacing: 12px;
     }
@@ -477,12 +482,18 @@ hr {
         text-align: right
     }
     .post-link{
+        margin-right: 0px;
+    }
+    .post-link{
         margin: 0px;
         
         
     }
     .post{
         margin-left: -13px;
+    }
+    .post_data{
+        text-align: center;
     }
   
     .post-content {
@@ -492,7 +503,8 @@ hr {
         margin: 0 auto;
     }
     .articles-title{
-        margin-left: 25px;
+        margin-left: 0px;
+        padding-left: 26px;
     }
 }
 
