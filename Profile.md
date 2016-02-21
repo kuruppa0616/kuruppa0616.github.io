@@ -44,10 +44,9 @@ permalink: /Profile/
 
 ****
 
-## Works
-
 
 ## Favorite
+
 (2016/02/20現在)
 
 + **ゲーム**
