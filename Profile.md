@@ -37,7 +37,7 @@ permalink: /Profile/
 ## Skill
 + **MAD動画**
     + AfterEffects
-    + Cinema4D
+    + Cinema4D（少しだけ）
 + **WEB**
     + HTML
     + CSS
@@ -77,8 +77,7 @@ permalink: /Profile/
 
 + **音楽**
     + 邦楽
-        + アニソン
-        + アニメとかゲームのサントラ
+        + アニソン,ゲーソン
         + 霜月はるか
     
     + 洋楽
@@ -87,6 +86,9 @@ permalink: /Profile/
         + SimplePlan
         + The Offspring
         + Tonight Alive
+        
+****
+
 
 
 
