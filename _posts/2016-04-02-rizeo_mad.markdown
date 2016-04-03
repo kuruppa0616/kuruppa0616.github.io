@@ -6,15 +6,15 @@ category: MAD
 ---
 ## まえがき
 前の[クロプラMAD](http://www.nicovideo.jp/watch/sm28100135)から2ヶ月くらい経ちましたね。このすばが終わってしまいましたね。  
-さて新年度早々4/1に新作を投稿しました。エイプリルフールじゃないです  
-<iframe width="312" height="176" src="http://ext.nicovideo.jp/thumb/sm28549334" scrolling="no" style="border:solid 1px #CCC;" frameborder="0"><a href="http://www.nicovideo.jp/watch/sm28549334">【ニコニコ動画】【静止画MAD】 もう一度ここから 【Re：ゼロから始める異世界生活】</a></iframe>  
+さて新年度早々4/1に新作を投稿しました。エイプリルフールじゃないです  。
+<iframe width="312" height="176" src="http://ext nicovideo.jp/thumb/sm28549334" scrolling="no" style="border:solid 1px #CCC;" frameborder="0"><a href="http://www.nicovideo.jp/watch/sm28549334">【ニコニコ動画】【静止画MAD】 もう一度ここから 【Re：ゼロから始める異世界生活】</a></iframe>  
 
 ![bandicam 2016-04-02 22-07-58-828.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\bandicam 2016-04-02 22-07-58-828.png)
 
 いやマジでエイプリルフールじゃないです。  
 なんか再生数とかランキングがとんでもないことになってます。夢のようです。  
 ありがとうございます。  
-投稿から24時間で再生数3,538 コメント136 マイリスト232、アニメカテゴリ24時間ランキング51位という状況です。  
+投稿から24時間で再生数3,538 コメント136 マイリスト232、アニメカテゴリ24時間ランキング51位と。いう状況です。  
 1時間に100回以上も見てもらえてるのだと思うと、とても嬉しいです。
 この記事書いてる間にもどんどん順位上がっていってて本当にありがとうございます。ありがとうございます。  
 <br>  
@@ -87,7 +87,7 @@ CINEMA 4D Student
 
 ![1327.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1327.png)
 ![1387.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1387.png)
-シリアス開始。ラムとエミリアの死。見て分かるように1章と2章を1番の中にまとめてしまっています。  
+シリアス開始。レムとエミリアの死。見て分かるように1章と2章を1番の中にまとめてしまっています。  
 歌詞と合っていて良い死にシーン。  
 <br>
 
