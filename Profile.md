@@ -37,7 +37,7 @@ permalink: /Profile/
 ## Skill
 + **MAD動画**
     + AfterEffects
-    + Cinema4D（少しだけ）
+    + Cinema4D
 + **WEB**
     + HTML
     + CSS
