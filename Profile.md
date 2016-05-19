@@ -77,15 +77,12 @@ permalink: /Profile/
 
 + **音楽**
     + 邦楽
-        + アニソン,ゲーソン
-        + 霜月はるか
+        + アニソン
     
     + 洋楽
         
         + All Time Low
         + SimplePlan
-        + The Offspring
-        + Tonight Alive
         
 ****
 
