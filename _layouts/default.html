@@ -46,16 +46,16 @@
     <script src="{{ site.baseurl }}/js/animsition.min.js"></script>
 
     <script>
-        jQuery(function ($) {
+        jQuery(function($) {
             $('a').addClass("animsition-link");
         })
 
-        $(document).ready(function () {
+        $(document).ready(function() {
             $(".animsition").animsition({
                 inClass: 'fade-in-down-sm',
                 outClass: 'fade-out-up-sm',
-                inDuration: 600,
-                outDuration: 600,
+                inDuration: 400,
+                outDuration: 400,
                 linkElement: '.animsition-link',
                 // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
                 loading: true,
@@ -63,7 +63,7 @@
                 loadingClass: 'animsition-loading',
                 loadingInner: '<img src="{{ site.baseurl }}/logo.svg" />', // e.g '<img src="{{ site.baseurl }}/logo.svg" />'
                 timeout: false,
-                timeoutCountdown: 5000,
+                timeoutCountdown: 2000,
                 onLoadEvent: true,
                 browser: ['animation-duration', '-webkit-animation-duration'],
                 // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
@@ -71,15 +71,15 @@
                 overlay: false,
                 overlayClass: 'animsition-overlay-slide',
                 overlayParentElement: 'body',
-                transition: function (url) {
+                transition: function(url) {
                     window.location.href = url;
                 }
             });
         });
-        
-        (function (i, s, o, g, r, a, m) {
+
+        (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
+            i[r] = i[r] || function() {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
@@ -179,11 +179,6 @@
                 if (Hour == 0 && Minute == 00) {
                     alert("KonVa");
                 }
-
-
-
-
-                
             </script>
 
 
