@@ -39,9 +39,46 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
+    <!-- animsition.css -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/animsition.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- animsition.js -->
+    <script src="{{ site.baseurl }}/js/animsition.min.js"></script>
 
     <!--    ページ遷移アニメーション-->
+    <script>
+        jQuery(function($) {
+            $('a').addClass("animsition-link");
+        })
 
+        $(document).ready(function() {
+            $(".animsition").animsition({
+                inClass: 'fade-in-down-sm',
+                outClass: 'fade-out-up-sm',
+                inDuration: 400,
+                outDuration: 400,
+                linkElement: '.animsition-link',
+                // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+                loading: true,
+                loadingParentElement: 'body', //animsition wrapper element
+                loadingClass: 'animsition-loading',
+//                loadingInner: 'S<img src="{{ site.baseurl }}/logo.svg" />', // e.g '<img src="{{ site.baseurl }}/logo.svg" />'
+                timeout: false,
+                timeoutCountdown: 2000,
+                onLoadEvent: true,
+                browser: ['animation-duration', '-webkit-animation-duration'],
+                // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+                // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+                overlay: false,
+                overlayClass: 'animsition-overlay-slide',
+                overlayParentElement: 'body',
+                transition: function(url) {
+                    window.location.href = url;
+                }
+            });
+        });
+    </script>
 
 
     <!--    GoogleAnalytics-->
@@ -152,46 +189,7 @@
                 alert("KonVa");
             }
         </script>
-        <!-- animsition.css -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/animsition.min.css">
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <!-- animsition.js -->
-        <script src="{{ site.baseurl }}/js/animsition.min.js"></script>
 
-        
-        <script>
-            jQuery(function($) {
-                $('a').addClass("animsition-link");
-            })
-
-            $(document).ready(function() {
-                $(".animsition").animsition({
-                    inClass: 'fade-in-down-sm',
-                    outClass: 'fade-out-up-sm',
-                    inDuration: 400,
-                    outDuration: 400,
-                    linkElement: '.animsition-link',
-                    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-                    loading: true,
-                    loadingParentElement: 'body', //animsition wrapper element
-                    loadingClass: 'animsition-loading',
-//                    loadingInner: 'S<img src="{{ site.baseurl }}/logo.svg" />', // e.g '<img src="{{ site.baseurl }}/logo.svg" />'
-                    timeout: false,
-                    timeoutCountdown: 2000,
-                    onLoadEvent: true,
-                    browser: ['animation-duration', '-webkit-animation-duration'],
-                    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-                    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-                    overlay: false,
-                    overlayClass: 'animsition-overlay-slide',
-                    overlayParentElement: 'body',
-                    transition: function(url) {
-                        window.location.href = url;
-                    }
-                });
-            });
-        </script>
 
     </div>
 
