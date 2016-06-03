@@ -6,18 +6,18 @@ permalink: /Profile/
 ## Status
 + **名前** : くるっぱ
 
-+ **性別** : 男 
++ **性別** : 男
 
 + **誕生日** : 199X/06/16
 
-+ **職業** : 学生  
++ **職業** : 学生
 
 + **メール** :  <a href="mailto:&#107;&#117;&#114;&#117;&#112;&#112;&#97;&#48;&#54;&#49;&#54;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#107;&#117;&#114;&#117;&#112;&#112;&#97;&#48;&#54;&#49;&#54;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
 
 ****
 
   
-## Account  
+## Accounts
 + [**Twitter**](https://twitter.com/kuruppa0616)
 
 + [**Youtube**](https://www.youtube.com/user/kuruppa0616)
@@ -34,8 +34,8 @@ permalink: /Profile/
     
 ****
 
-## Skill
-+ **MAD動画**
+## Skills
++ **MAD**
     + AfterEffects
     + Cinema4D
 + **WEB**
@@ -44,14 +44,45 @@ permalink: /Profile/
 
 ****
 
+## Works  
++ **動画**  
+    + アニメMAD  
+        + Steins;Gate [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm24080161)  
+        + ALDNOAH.ZERO [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm25170764)  
+        + 結城友奈は勇者である [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm25856132)  
+        + 楽園追放 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm27587620)
+    + 静止画MAD  
+        + クロックワーク・プラネット [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm28100135)  
+        + Re:ゼロから始める異世界生活 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm28549334)  
+    + Minecraft  
+        + マルチで円柱都市つくってみた。[[ニコニコ動画]](http://www.nicovideo.jp/watch/sm21006016)  
+        + Town of cliff and ocean. [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm21614029)[[Youtube]](https://www.youtube.com/watch?v=nPrxS8PG44w)  
+        + マルチで無計画に1時間建築やってみた。シリーズ  
+            + 1件目 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm21872448) [[Youtube]](https://www.youtube.com/watch?v=GOl5my7BuDQ)  
+            + 2件目 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm21896262) [[Youtube]](https://www.youtube.com/watch?v=toVrrFXeh7U)
+            + 3件目 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm22496927) [[Youtube]](https://www.youtube.com/watch?v=HGCF6W7MXO8)
+            + 4件目 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm22912506) [[Youtube]](https://www.youtube.com/watch?v=hcwjL_mIWO0)
+            + 5件目 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm23077053) [[Youtube]](https://www.youtube.com/watch?v=W8Psd2or1QE)
+            + 6件目 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm23321775) [[Youtube]](https://www.youtube.com/watch?v=3kXb5IiYEFk)
+            + 7件目 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm23635607) [[Youtube]](https://www.youtube.com/watch?v=fbs_BBccxQk)
+            + 8件目 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm23995536) [[Youtube]](https://www.youtube.com/watch?v=URuKOjYAfbk)
+            + 9件目 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm24246628) [[Youtube]](https://www.youtube.com/watch?v=jXZVIEBwWz4)
+        + あばーえいじ城 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm24246628)
++ **Webページ**
+    + [ブログ](kuruppa.xyz) 
 
-## Favorite
+****
+
+
+
+
+## Favorites
 
 (2016/02/20現在)
 
 + **ゲーム**
 
-    + 科学ADVシリーズ(チヨスタ)
+    + 科学ADVシリーズ
     
     + ノベルゲーム
     
@@ -83,11 +114,3 @@ permalink: /Profile/
         
         + All Time Low
         + SimplePlan
-        
-****
-
-
-
-
-
-    
