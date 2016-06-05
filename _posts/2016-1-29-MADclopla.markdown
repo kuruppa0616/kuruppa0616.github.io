@@ -88,5 +88,6 @@ AEをもうちょっと扱えるようになったらc4dと言うより3DCGの�
 <iframe width="312" height="176" src="http://live.nicovideo.jp/embed/lv249585925" scrolling="no" style="border:solid 1px #d0d0d0; background-color: #f6f6f6;" frameborder="0"><a href="http://live.nicovideo.jp/watch/lv249585925">ニコニコアニメスペシャル「Fate/stay night [Unlimited Blade Works]」#00 - #12一挙放送</a></iframe><iframe width="312" height="176" src="http://live.nicovideo.jp/embed/lv249586527" scrolling="no" style="border:solid 1px #d0d0d0; background-color: #f6f6f6;" frameborder="0"><a href="http://live.nicovideo.jp/watch/lv249586527">ニコニコアニメスペシャル「Fate/stay night [Unlimited Blade Works]」#13 - #25一挙放送</a></iframe>  
 見ような！  
 体は剣で(ry
-
+<br><br><br><br><br>
+アニメ放送するときにもう一度作りたい...
 
