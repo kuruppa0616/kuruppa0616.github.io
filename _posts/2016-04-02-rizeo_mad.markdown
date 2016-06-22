@@ -12,7 +12,7 @@ category: MAD
 ## 感謝のまえがき
 前の[クロプラMAD](http://www.nicovideo.jp/watch/sm28100135)から2ヶ月くらい経ちましたね。このすばが終わってしまいましたね。  
 さて新年度早々4/1に新作を投稿しました。エイプリルフールじゃないです  。
-<iframe width="312" height="176" src="http://ext.nicovideo.jp/thumb/sm28549334" scrolling="no" style="border:solid 1px #CCC;" frameborder="0"><a href="http://www.nicovideo.jp/watch/sm28549334">【ニコニコ動画】【静止画MAD】 もう一度ここから 【Re：ゼロから始める異世界生活】</a></iframe>
+
 ![bandicam 2016-04-02 22-07-58-828.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\bandicam 2016-04-02 22-07-58-828.png)
 
 いやマジでエイプリルフールじゃないです。  
