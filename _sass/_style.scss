@@ -334,7 +334,12 @@ hr {
 .post_data {
     margin-left: 400px;
 }
-
+.post-image{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    
+}
 .posts_text {
     font-size: 16px;
     margin-top: 10px;
