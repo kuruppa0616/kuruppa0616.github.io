@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nicovideo_thumb_response status="ok">
+  <thumb>
+    <video_id>sm500873</video_id>
+    <title>組曲『ニコニコ動画』 </title>
+    <description>700万再生、ありがとうございました。記念動画公開中です ⇒ (sm14242201)ニコニコ動画(β・γ)で人気のあった曲などを繋いでひとつの曲にしてみました(2度目)。全33曲。※多くの方を誤解させてしまっているようですが(申し訳ないです)、厳密には「組曲」ではなく「メドレー」です。「組曲という名前のメドレー」だと思ってください。mylist/1535765user/145217</description>
+    <thumbnail_url>http://tn-skr2.smilevideo.jp/smile?i=500873</thumbnail_url>
+    <first_retrieve>2007-06-23T18:27:06+09:00</first_retrieve>
+    <length>10:48</length>
+    <movie_type>flv</movie_type>
+    <size_high>40007472</size_high>
+    <size_low>35192581</size_low>
+    <view_counter>9382523</view_counter>
+    <comment_num>4492675</comment_num>
+    <mylist_counter>145422</mylist_counter>
+    <last_res_body>たんやお～ ＼(^o^)/ぺったんぺっ りんりんらんらつるぺ しも兄貴を? ... </last_res_body>
+    <watch_url>http://www.nicovideo.jp/watch/sm500873</watch_url>
+    <thumb_type>video</thumb_type>
+    <embeddable>1</embeddable>
+    <no_live_play>0</no_live_play>
+    <tags domain="jp">
+      <tag category="1" lock="1">音楽</tag>
+      <tag lock="1">アレンジ</tag>
+      <tag lock="1">組曲『ニコニコ動画』</tag>
+      <tag lock="1">空気の読めるWMP</tag>
+      <tag lock="1">ニコニコオールスター</tag>
+      <tag>ニコニコメドレーシリーズ</tag>
+      <tag>職人の遊び場</tag>
+      <tag>ニコニコメドレー殿堂入り</tag>
+      <tag>⑨周年</tag>
+      <tag>NG共有非推奨</tag>
+      <tag>1000万再生予備軍</tag>
+    </tags>
+    <user_id>145217</user_id>
+    <user_nickname>しも</user_nickname>
+    <user_icon_url>http://res.nimg.jp/img/user/thumb/blank_s.jpg</user_icon_url>
+  </thumb>
+</nicovideo_thumb_response>
