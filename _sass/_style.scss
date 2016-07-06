@@ -1,15 +1,8 @@
 @charset "utf-8";
-@font-face {
-    font-family: 'Source Han Sans';
-    font-style: normal;
-    src: url('../font/font.eot');
-    src: url('../font/font.eot?#iefix') format('embedded-opentype'), url('../font/font.woff') format('woff'), url('../font/font.ttf') format('truetype');
-}
-
 body {
     background-color: #F5F5F5;
     position: relative;
-    font-family: 'Source Han Sans';
+    font-family: Whitney, "Helvetica Neue", "メイリオ", Meiryo, Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif!important;
     color: #262626;
     margin: 0 auto;
     font-size: 14px;
@@ -167,7 +160,7 @@ body {
     border-right: 6px solid;
     float: left;
     width: 200px;
-    height: 390px;
+    height: 370px;
     padding-right: 7px;
     padding-left: 7px;
 }
@@ -187,11 +180,13 @@ body {
     border-color: #6C469A;
 }
 
+//自己紹介文
 .introduction {
     font-size: 15px;
     line-height: 1.8;
 }
 
+//プロフィールページヘ
 .moreprofile {
     font-size: 16px;
     margin-left: 90px;
@@ -278,6 +273,7 @@ body {
     padding-bottom: 60px;
 }
 
+//ボタンレイアウト
 .btn_guide {
     width: 480px;
     text-align: center;
@@ -295,20 +291,22 @@ body {
     float: right;
 }
 
-.line {
-    border-top: 6px solid;
-    border-color: #6C469A;
-}
-
+//.line {
+//    border-top: 6px solid;
+//    border-color: #6C469A;
+//}
+//記事リスト
 .article {
     margin: 0 auto;
     width: 360px;
 }
 
+//記事リストタイトル
 .articles-title {
     margin-top: 0px;
 }
 
+//記事リスト境目の線
 hr {
     border: 0;
     background-color: $grey-color-light;
@@ -317,6 +315,7 @@ hr {
     height: 1px;
 }
 
+//記事リンク
 .post-link {
     font-size: 25px;
     margin-right: 20px;
@@ -331,21 +330,25 @@ hr {
     }
 }
 
+//記事投稿日
 .post_data {
     margin-left: 400px;
 }
-.post-image{
+
+//記事内画像
+.post-image {
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    
-}
-.posts_text {
-    font-size: 16px;
-    margin-top: 10px;
-    margin-left: 20px;
 }
 
+//記事内テキスト
+//.posts_text {
+//    font-size: 16px;
+//    margin-top: 10px;
+//    margin-left: 20px;
+//}
+//記事一覧リンク
 .andmore {
     font-size: 15px;
     margin-left: 550px;
@@ -367,10 +370,7 @@ hr {
     margin-top: 160px;
 }
 
-.article_txt {
-    float: left;
-    width: 530px;
-}
+
 
 .post-link-index {
     font-size: 15px;
@@ -505,3 +505,30 @@ hr {
 .post-list-a {
     text-align: left
 }
+
+.nicothumb {
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.niconico_wrapper {
+    margin-left: 10px;
+    width: 720px;
+    height: 105px;
+}
+
+.samune {
+    float: left;
+}
+
+.status {
+    width: 590px;
+    height: 100px;
+    float: right;
+    text-align: left;
+}
+
