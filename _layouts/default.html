@@ -55,12 +55,12 @@
 
     <script>
         //        遷移アニメーション用のタグ付け
-        jQuery(function($) {
+        jQuery(function ($) {
             $('a').addClass("animsition-link");
         })
 
         // ページ遷移アニメーション
-        $(document).ready(function() {
+        $(document).ready(function () {
             $(".animsition").animsition({
                 inClass: 'fade-in-down-sm',
                 outClass: 'fade-out-up-sm',
@@ -71,7 +71,7 @@
                 loading: true,
                 loadingParentElement: 'body', //animsition wrapper element
                 loadingClass: 'animsition-loading',
-                //                loadingInner: 'S<img src="{{ site.baseurl }}/logo.svg" />', // e.g '<img src="{{ site.baseurl }}/logo.svg" />'
+                //                                loadingInner: 'S<img src="{{ site.baseurl }}/logo.svg" />', // e.g '<img src="{{ site.baseurl }}/logo.svg" />'
                 timeout: false,
                 timeoutCountdown: 2000,
                 onLoadEvent: true,
@@ -81,7 +81,7 @@
                 overlay: false,
                 overlayClass: 'animsition-overlay-slide',
                 overlayParentElement: 'body',
-                transition: function(url) {
+                transition: function (url) {
                     window.location.href = url;
                 }
             });
@@ -182,9 +182,9 @@
                 alert("KonVa");
             }
             //            GoogleAnalytics
-            (function(i, s, o, g, r, a, m) {
+            (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
+                i[r] = i[r] || function () {
                     (i[r].q = i[r].q || []).push(arguments)
                 }, i[r].l = 1 * new Date();
                 a = s.createElement(o),
