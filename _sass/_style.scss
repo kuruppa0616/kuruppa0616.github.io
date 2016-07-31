@@ -2,7 +2,8 @@
 body {
     background-color: #F5F5F5;
     position: relative;
-    font-family:  -apple-system,游ゴシック Medium, 'Yu Gothic Medium', YuGothic Medium, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'MS Pゴシック', 'MS PGothic', sans-serif;
+    // font-family:  -apple-system,游ゴシック Medium, 'Yu Gothic Medium', YuGothic Medium, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'MS Pゴシック', 'MS PGothic', sans-serif;
+    font-family: Quicksand, 游ゴシック体 Medium, 'Yu Gothic Medium', YuGothic Medium, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'MS Pゴシック', 'MS PGothic', sans-serif;
 
     color: #262626;
     margin: 0 auto;
@@ -223,6 +224,7 @@ body {
     height: 390px;
     padding-left: 10px;
     padding-right: 10px;
+    letter-spacing: -0.65px;
 }
 
 
@@ -533,4 +535,3 @@ hr {
     float: right;
     text-align: left;
 }
-
