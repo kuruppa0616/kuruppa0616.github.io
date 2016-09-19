@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: http://kuruppa0616.github.io/sitemap.xml
