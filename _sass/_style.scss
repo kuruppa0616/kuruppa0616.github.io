@@ -210,9 +210,9 @@ body {
 .profile-pic {
     width: 200px;
     height: auto;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
 }
 
 
@@ -232,9 +232,9 @@ body {
 
 .btn {
     /*角を丸く*/
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     letter-spacing: 3px;
     font-size: 23px;
     display: inline-block;
@@ -341,9 +341,9 @@ hr {
 
 //記事内画像
 .post-image {
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
 }
 
 //記事内テキスト
@@ -406,9 +406,9 @@ hr {
     width: auto;
     height: auto;
     background-color: white;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
 }
 
 .niconico_wrapper {
@@ -458,9 +458,9 @@ hr {
     .profile-pic {
         width: 128px;
         height: auto;
-        border-radius: 30px;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
     }
     .introduction {
         font-size: 15px;

@@ -65,6 +65,7 @@ permalink: /Profile/
     + 静止画MAD  
         + クロックワーク・プラネット [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm28100135)  
         + Re:ゼロから始める異世界生活 [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm28549334)  
+        + 異世界迷宮の最深部を目指そう[[ニコニコ動画]](http://www.nicovideo.jp/watch/sm29613739)  
     + Minecraft  
         + マルチで円柱都市つくってみた。[[ニコニコ動画]](http://www.nicovideo.jp/watch/sm21006016)  
         + Town of cliff and ocean. [[ニコニコ動画]](http://www.nicovideo.jp/watch/sm21614029)[[Youtube]](https://www.youtube.com/watch?v=nPrxS8PG44w)  

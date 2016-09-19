@@ -25,7 +25,7 @@ category: WEBSITE
 
 そこからコード書いていって結構順調に進んだんだけども  
 途中から正常に動いてくれなくなって、その時[totoraj大先生](https://twitter.com/totoraj930)が助けてくれました  
-![メシア]({{ site.baseurl }}/post-item/2016-1-15-BlogFix/1.jpg)  
+![メシア]({{ site.baseurl }}/post-item/2016-1-15-BlogFix/1.png)  
 約1時間半に渡り色々と教えてくれたので本当に助かりました。#ありがとうゆゆ式  
 2期まだですか？  
 その結果普通？のJekyllで作りなおすことに  
