@@ -172,7 +172,7 @@ body {
     border-right: 3px solid;
     float: left;
     width: 150px;
-    height: 370px;
+    height: auto;
     padding-right: 5px;
     padding-left: 5px;
 }
@@ -195,10 +195,12 @@ body {
 //自己紹介文
 .introduction {
     font-size: 15px;
+    letter-spacing: -1px;
     line-height: 1.8;
 }
 
 .introduction-small {
+    letter-spacing: 0px;
     font-size: 12px;
 }
 
@@ -216,12 +218,10 @@ body {
     margin-right: auto;
 }
 
-//.line {
-//    border-top: 6px solid;
-//    border-color: #6C469A;
-//}
+
 //記事リスト
 .articles {
+    letter-spacing: -0.5px;
     float: right;
     width: 550px;
 }
@@ -361,20 +361,17 @@ hr {
         border: none;
     }
     .profile-pic {
-        width: 128px;
+        width: 128Epx;
         height: auto;
-        border-radius: 6px;
-        -webkit-border-radius: 6px;
-        -moz-border-radius: 6px;
     }
     .introduction {
-        font-size: 15px;
+        font-size: 18px;
         width: 210px;
         height: auto;
         margin: 0 auto;
         text-align: center;
-        letter-spacing: 0px;
-        line-height: 1.5;
+
+        line-height: 1.8;
     }
     .introduction-small:after {
         content: "\A";
