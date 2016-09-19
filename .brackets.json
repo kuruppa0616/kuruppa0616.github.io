@@ -1,0 +1,6 @@
+{
+    "brackets-latex.compiler": "pdflatex",
+    "brackets-latex.texBinDirectory": "/usr/texbin",
+    "brackets-latex.outputDirectory": "out",
+    "brackets-latex.mainFile": null
+}
