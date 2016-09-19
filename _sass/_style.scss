@@ -1,14 +1,11 @@
 @charset "utf-8";
 body {
-    background-color: #F5F5F5;
+    background-color: $background-color;
     position: relative;
-    // font-family:  -apple-system,游ゴシック Medium, 'Yu Gothic Medium', YuGothic Medium, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'MS Pゴシック', 'MS PGothic', sans-serif;
-    font-family: Quicksand, 游ゴシック体 Medium, 'Yu Gothic Medium', YuGothic Medium, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'MS Pゴシック', 'MS PGothic', sans-serif;
-
-    color: #262626;
+    font-family: $base-font-family;
+    color: $text-color;
     margin: 0 auto;
-    font-size: 14px;
-
+    font-size: $base-font-size;
 }
 
 
@@ -21,15 +18,15 @@ body {
 }
 
 .header_morning {
-    background-color: #0BA60B;
+    background-color: $morning-color;
 }
 
 .header_noon {
-    background-color: #D6431B;
+    background-color: $noon-color;
 }
 
 .header_night {
-    background-color: #6C469A;
+    background-color: $night-color;
 }
 
 
@@ -37,16 +34,16 @@ body {
 
 .logo {
     text-align: center;
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 32px;
 }
 
 .logo_even {
-    -webkit-animation: spin_even 10s linear infinite;
-    -moz-animation: spin_even 10s linear infinite;
-    -ms-animation: spin_even 10s linear infinite;
-    -o-animation: spin_even 10s linear infinite;
-    animation: spin_even 10s linear infinite;
+    -webkit-animation: spin_even 20s linear infinite;
+    -moz-animation: spin_even 20s linear infinite;
+    -ms-animation: spin_even 20s linear infinite;
+    -o-animation: spin_even 20s linear infinite;
+    animation: spin_even 20s linear infinite;
 }
 
 @-webkit-keyframes spin_even {
@@ -95,11 +92,11 @@ body {
 }
 
 .logo_odd {
-    -webkit-animation: spin_odd 10s linear infinite;
-    -moz-animation: spin_odd 10s linear infinite;
-    -ms-animation: spin_odd 10s linear infinite;
-    -o-animation: spin_odd 10s linear infinite;
-    animation: spin_odd 10s linear infinite;
+    -webkit-animation: spin_odd 20s linear infinite;
+    -moz-animation: spin_odd 20s linear infinite;
+    -ms-animation: spin_odd 20s linear infinite;
+    -o-animation: spin_odd 20s linear infinite;
+    animation: spin_odd 20s linear infinite;
 }
 
 @-webkit-keyframes spin_odd {
@@ -156,31 +153,43 @@ body {
     margin: 0 auto;
 }
 
+.link {
+    color: $brand-color;
+    text-decoration: none;
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
 
 /*自己紹介*/
 
 .profile {
-    border-right: 6px solid;
+    border-right: 3px solid;
     float: left;
-    width: 200px;
+    width: 150px;
     height: 370px;
-    padding-right: 7px;
-    padding-left: 7px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .profile_morning {
     /* headrの色と同じ */
-    border-color: #0BA60B;
+    border-color: $morning-color;
 }
 
 .profile_noon {
     /* headrの色と同じ */
-    border-color: #D6431B;
+    border-color: $noon-color;
 }
 
 .profile_night {
     /* headrの色と同じ */
-    border-color: #6C469A;
+    border-color: $night-color;
 }
 
 //自己紹介文
@@ -189,110 +198,22 @@ body {
     line-height: 1.8;
 }
 
-//プロフィールページヘ
-.moreprofile {
-    font-size: 16px;
-    margin-left: 70px;
-    color: $brand-color;
-    text-decoration: none;
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
+.introduction-small {
+    font-size: 12px;
 }
 
 
 /*プロフォール画像*/
 
 .profile-pic {
-    width: 200px;
+    width: 130px;
     height: auto;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-}
-
-
-/*リンク*/
-
-.links {
-    float: right;
-    width: 480px;
-    height: 390px;
-    padding-left: 10px;
-    padding-right: 10px;
-    letter-spacing: -0.65px;
-}
-
-
-/*ボタン*/
-
-.btn {
-    /*角を丸く*/
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    letter-spacing: 3px;
-    font-size: 23px;
-    display: inline-block;
-    width: 200px;
-    height: auto;
-    text-align: center;
-    text-decoration: none;
-    padding: 15px;
-    color: #FFF;
-    margin-right: 4px;
-    margin-left: 4px;
-    margin-bottom: 5px;
-}
-
-.btn_morning {
-    background-color: #B6D11B;
-}
-
-.btn_morning:hover {
-    background-color: #CDE05E;
-}
-
-.btn_noon {
-    background-color: #F1B709;
-}
-
-.btn_noon:hover {
-    background-color: #F6CE59;
-}
-
-.btn_night {
-    background-color: #3B60A8;
-}
-
-.btn_night:hover {
-    background-color: #718DC5;
-}
-
-.btn_above {
-    padding-bottom: 60px;
-}
-
-//ボタンレイアウト
-.btn_guide {
-    width: 480px;
-    text-align: center;
-    line-height: 1.8;
-    margin-top: 5px;
-}
-
-.btn_guide_twitter {
-    width: 240px;
-    float: left;
-}
-
-.btn_guide_bookmeter {
-    width: 240px;
-    float: right;
+    border-radius: 600px;
+    -webkit-border-radius: 600px;
+    -moz-border-radius: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 //.line {
@@ -300,43 +221,38 @@ body {
 //    border-color: #6C469A;
 //}
 //記事リスト
+.articles {
+    float: right;
+    width: 550px;
+}
+
 .article {
     margin: 0 auto;
     width: 360px;
 }
 
 //記事リストタイトル
-.articles-title {
-    margin-top: 0px;
-}
-
 //記事リスト境目の線
 hr {
     border: 0;
     background-color: $grey-color-light;
-    max-width: 90%;
+    max-width: 100%;
     box-sizing: border-box;
     height: 1px;
+}
+.post{
+    margin-top: 4px;
 }
 
 //記事リンク
 .post-link {
-    font-size: 25px;
-    margin-right: 20px;
-    color: $brand-color;
-    text-decoration: none;
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
+    font-size: 18px;
 }
 
 //記事投稿日
 .post_data {
-    margin-left: 400px;
+    margin-left: 410px;
+    margin-top: 5px;
 }
 
 //記事内画像
@@ -354,17 +270,8 @@ hr {
 //}
 //記事一覧リンク
 .andmore {
-    font-size: 15px;
-    margin-left: 550px;
-    color: $brand-color;
-    text-decoration: none;
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
+    font-size: 17px;
+    margin-left: 450px;
 }
 
 //ポストhtml
@@ -373,8 +280,6 @@ hr {
     width: 150px;
     margin-top: 160px;
 }
-
-
 
 .post-link-index {
     font-size: 15px;
@@ -393,7 +298,10 @@ hr {
         text-decoration: underline;
     }
 }
-
+.article-list{
+    width: 550px;
+    text-align: center;
+}
 .profile-wrapper {
     text-align: left;
 }
@@ -405,7 +313,7 @@ hr {
 .nicothumb {
     width: auto;
     height: auto;
-    background-color: white;
+    background-color: #F4F4F2;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -445,13 +353,10 @@ hr {
     .top {
         padding-right: 20px;
     }
-  
     .profile {
         width: 100%;
         height: auto;
         padding-top: 0px;
-        padding-right: 10px;
-        padding-left: 10px;
         float: none;
         border: none;
     }
@@ -467,40 +372,25 @@ hr {
         width: 210px;
         height: auto;
         margin: 0 auto;
-        text-align: left;
+        text-align: center;
         letter-spacing: 0px;
         line-height: 1.5;
+    }
+    .introduction-small:after {
+        content: "\A";
+        white-space: pre;
     }
     .moreprofile {
         font-size: 16px;
         margin-left: 50px;
     }
-    .links {
+    .articles {
         width: 100%;
         height: auto;
         float: none;
     }
-    .Links_btn {
-        text-align: center;
-    }
-    .btn {
-        padding: 8px;
-        width: 70%;
-        height: 4%;
-        font-size: 30px;
-        letter-spacing: 0px;
-        margin-right: 0px auto;
-        margin-left: 0px auto;
-        margin-bottom: 20px;
-    }
-    .btn_guide {
-        display: none;
-    }
-    .btn_above {
-        padding-bottom: 0px
-    }
     .andmore {
-        margin-left: 20px;
+        margin-left: 0px;
         margin-bottom: 200px;
     }
     .wrapper-post {
@@ -534,4 +424,3 @@ hr {
         padding-left: 26px;
     }
 }
-

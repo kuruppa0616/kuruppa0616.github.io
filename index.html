@@ -7,87 +7,32 @@ layout: default
     <!-- プロフィール -->
     <div class="profile" id="profile">
 
-        <h1>-About-</h1>
+        <h1>-Hello-</h1>
         <p>
             <a href="/Profile/">
-               
+
                 <img src="{{ site.baseurl }}/img/Profile.jpg" alt="profile-pic" class="profile-pic">
-                
+
             </a>
         </p>
 
-      
+
 
         <!--自己紹介文-->
         <div class="introduction">
-            <p>名前：くるっぱ</p>
-            <p>好物：ラノベ、アニメ</p>
-            <p>制作：MAD、HP</p>
-            <a class="moreprofile" href="/Profile/">>>more profile</a>
+            <p><span class="introduction-small">Name./</span>/くるっぱ</p>
+            <p><span class="introduction-small">Fav./</span>/ラノベ、アニメ</p>
+            <p><span class="introduction-small">Work./</span>/静止画MAD</p>
+            <hr>
+            <p>・<a class="link" href="/Profile/">About me</a></p>
+            <hr>
+            <p>・<a class="link" href="https://twitter.com/kuruppa0616">Twitter</a></p>
+            <p>・<a class="link" href="http://www.nicovideo.jp/user/17150151/video">NicoNico</a></p>
+            <p>・<a class="link" href="https://www.youtube.com/user/kuruppa0616/videos">YouTube</a></p>
             
-        </div>
-
-    </div>
-    
-    <!-- Links -->
-
-    <div class="links">
-        <h1>-Links-</h1>
-
-        <div class="Links_btn">
-
-            <div class="btn_above">
-                <a class="btn" id="btn_Twitter" href="https://twitter.com/kuruppa0616">
-
-                    Twitter
-
-                </a>
-
-                <a class="btn" id="btn_Bookmeter" href="http://bookmeter.com/u/562222">
-
-                    BookMeter
-
-                </a>
-                <div class="btn_guide">
-                    <div class="btn_guide_twitter">
-                        アニメとかラノベの感想や
-                        <br> 出来事をダラダラ吐いてる
-                    </div>
-                    <div class="btn_guide_bookmeter">
-                        読んだラノベを
-                        <br> 忘れないように登録してる
-                    </div>
-                </div>
-            </div>
-
-            <div class="btn_below">
-                <a class="btn" id="btn_YouTube" href="https://www.youtube.com/user/kuruppa0616/videos">
-
-                    YouTube
-
-                </a>
-
-                <a class="btn" id="btn_NicoNico" href="http://www.nicovideo.jp/user/17150151/video">
-
-                    NicoNico
-
-                </a>
-                <div class="btn_guide">
-                    <div class="btn_guide_twitter">
-                        Minecraftの建築動画を
-                        <br> 投稿してた（完結）
-                    </div>
-                    <div class="btn_guide_bookmeter">
-                        コッチにも建築動画上げてた
-                        <br> 今はMADを時々投稿してる
-                    </div>
-                </div>
-
-            </div>
-
+            
 
         </div>
-
 
     </div>
 
@@ -99,7 +44,7 @@ layout: default
             {% for post in paginator.posts %}
             <article class="post">
 
-                <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <a class="link post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 
                 <div class="post_data">{{ post.date | date: "%Y - %m - %-d" }}</div>
                 <hr>
@@ -108,12 +53,10 @@ layout: default
             {% endfor %}
 
         </ul>
-    
-    <a class="andmore" href="/postlist/">>>article lists</a>
+
+        <a class="link andmore" href="/postlist/">Article Lists</a>
     </div>
-    
-   
-    
+
+
+
 </div>
-
-

@@ -178,6 +178,7 @@
 
 
 .post-meta {
+    text-align: right;
     font-size: $small-font-size;
     color: $grey-color;
 }
@@ -196,8 +197,8 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
+    font-size: 27px;
+    margin-top: 30px;
     line-height: 1;
 
     @include media-query($on-laptop) {

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "静止画MAD作りましたヨット"
+title: "「クロックワーク・プラネット」の静止画MADを作った"
 date: 2016-01-29
 category: MAD
 ---
@@ -8,7 +8,7 @@ category: MAD
 おはようございました  
 
 ## MAD作りました  
-<iframe width="312" height="176" src="http://ext.nicovideo.jp/thumb/sm28100135" scrolling="no" style="border:solid 1px #CCC;" frameborder="0"><a href="http://www.nicovideo.jp/watch/sm28100135">【ニコニコ動画】【静止画MAD】 時計仕掛けの惑星 【クロックワーク・プラネット】</a></iframe>  
+<div id="video"></div> 
 AfterEffects、Photoshop、Illustrator、CINEMA 4Dで作った。  
 このMADはAdobeで出来ている...
 
@@ -91,3 +91,25 @@ AEをもうちょっと扱えるようになったらc4dと言うより3DCGの�
 <br><br><br><br><br>
 アニメ放送するときにもう一度作りたい...
 
+<script>
+$(function() {
+$("#video").nicothumb({
+video_id: "sm28100135",
+template: ""
++ "<div class='nicothumb'>"
++ "<h4><a href=\"{watch_url}\">{title}</a></h4>"
++ "<div class='niconico_wrapper'>"
++ "<a class='samune' href=\"{watch_url}\">"
++ "<img src=\"{thumbnail_url}\" alt=\"サムネイル\">"
++ "</a>"
++ "<div class='status'>"
++ "<h4>再生数: <span>{view_counter}</span></h4>"
++ "<h5>コメント数: <span>{comment_num}</span></h5>"
++ "<h5>マイリスト数: <span>{mylist_counter}</span></h5>"
++ "</div>"
++ "</div>"
++ "</div>"
+
+});
+});
+</script>

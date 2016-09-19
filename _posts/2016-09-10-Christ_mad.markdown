@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "異世界迷宮の最深部を目指そうの静止画MADを作った"
+title: "「異世界迷宮の最深部を目指そう」の静止画MADを作った"
 date: 2016-09-18
 category: MAD
 ---

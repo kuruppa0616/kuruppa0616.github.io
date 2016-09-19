@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Re：ゼロから始める異世界生活の静止画MADを作った"
+title: "「Re:ゼロから始める異世界生活」の静止画MADを作った"
 date: 2016-04-02
 category: MAD
 ---
