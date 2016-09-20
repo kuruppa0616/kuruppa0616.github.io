@@ -427,7 +427,7 @@ hr {
         padding-right: 20px;
     }
     .profile {
-        width: 100%;
+        width: calc(100% - 10px);
         height: auto;
         padding-top: 0px;
         float: none;
@@ -461,8 +461,9 @@ hr {
         white-space: pre;
     }
     .articles {
-    
-        width: 100%;
+    width: 100%;
+     
+
         height: auto;
         float: none;
     }
@@ -472,21 +473,16 @@ hr {
     .wrapper-post {
         text-align: left;
     }
-    .post_data {
-        margin: 0 auto;
-        text-align: right
-    }
     .post-link {
-        margin-right: 0px;
+        margin: 0 auto;
+        text-align: center;
         font-size: 14px;
-    }
-    .post-link {
-        margin: 0 auto;
     }
     .post {
        
     }
     .post_data {
+        margin: 0 auto;
         text-align: center;
     }
     .post-content {
@@ -497,6 +493,10 @@ hr {
     }
     .articles-title {
         width: 100%;
+    }
+    .area{
+        width: calc(100% - 10px);
+
     }
     .item {
         width: 320px;
