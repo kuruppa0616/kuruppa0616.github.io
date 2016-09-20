@@ -1,0 +1,66 @@
+---
+layout: post
+title: "スマホ版のレイアウト直しましたって話と記事書く練習"
+date: 2016-01-15
+category: WEBSITE
+---
+ラノベみたいなタイトルになりましたがタイトル通りの内容です。チョロい美少女はいません
+
+### なんかスマホ用のレイアウトが崩れてました。 
+今は凍結された偉大な[**†lm0x†**](https://twitter.com/lm0x)さんに
+<blockquote class="twitter-tweet" data-conversation="none" lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/kuruppa0616">@kuruppa0616</a> ほそすぎ <a href="https://t.co/eRgtdtJPOb">pic.twitter.com/eRgtdtJPOb</a></p>&mdash; れもん (@6lmx) <a href="https://twitter.com/6lmx/status/687629181287448578">2016, 1月 14</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+と言われてソース見直したら自己紹介文のとこのwidthが原因でした  
+紹介文のwidthがページ全体の横幅の数値より大きくなってたのがダメだったみたい  
+この辺のCSSは前のサイトの奴そのまま使ってたはずなのに何でズレたんだろ  
+（前に「高さが"height"なのに横幅は"weight"じゃないんだよ！分かりにくいんだよ！」っていう頭の悪い話を英語の授業中にlm0xとしてたら先生にマジレスされたけど言われたこと全く覚えてない)
+<br><br><br>
+イカ文章書く練習↓
+<br><br>
+最初はMAD作りの息抜きに軽く再調整するつもりがなんかガッツリ弄り始めて結構時間かかった  
+最初は簡単そうってことで[Jekyll now](https://github.com/barryclark/jekyll-now)でやっていた  
+この辺の知識は全くなく、ruby入れたりするとこから始めたので楽しかった  
+その時[ここ](http://qiita.com/chihiro-adachi/items/99a82c902b4c8467aa4c)にお世話になりました  
+
+
+そこからコード書いていって結構順調に進んだんだけども  
+途中から正常に動いてくれなくなって、その時[totoraj大先生](https://twitter.com/totoraj930)が助けてくれました  
+![メシア]({{ site.baseurl }}/post-item/2016-1-15-BlogFix/1.png)  
+約1時間半に渡り色々と教えてくれたので本当に助かりました。#ありがとうゆゆ式  
+2期まだですか？  
+その結果普通？のJekyllで作りなおすことに  
+nowの方でほとんど作ってあったんで基本的にはそれを持ってくるだけで済んだけど  
+ページの読み込みが異常に遅かったりとチョクチョク問題が起きた  
+楽するなって事ですね。結局二度手間だった  
+ちなみにGoogleFontの読み込みが足引っ張ってた　<s>Fu○kin Google</s>  
+ 
+SCSS勉強すればもうちょっとコードの効率化できると思うので  
+自称効率厨の身としては今の[気持ち悪いコード](https://github.com/kuruppa0616/kuruppa0616.github.io)をせめてパスタに調理したい  
+その内やります。やるったらやる。  
+後、デフォで入ってた複数のSCSSに跨るように色々書き足していったせいでどのプロパティがどこのSCSSにあるのか分かりづらいのできちんとまとめたい  
+ドメインを買いたい。.xyzとか安いし(日本語ドメインってどうなんだろ)
+
+
+それとSEO周辺の知識が全く無いのでなんとかしたい
+
+<br>
+<br>
+
+# そして
+
+<br>
+<br>
+
+
+
+
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">本作品の4DXでの上映についてお問い合わせを頂いておりますが、結論から申し上げますと実施します！現在上映劇場を調整中ですので、告知に関しましては今しばらくお待ち頂ければ幸いです。宜しくお願い致します。 <a href="https://twitter.com/hashtag/garupan?src=hash">#garupan</a></p>&mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) <a href="https://twitter.com/garupan/status/686898653802283008">2016, 1月 12</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+# 4DXやったぜ！
+
+<br><br>
+<br>
+
+<blockquote class="twitter-tweet" data-cards="hidden" lang="ja"><p lang="ja" dir="ltr">【速報】大ヒット上映中の「劇場版」ですが、何と昨日段階で興行収入9億円を突破！御礼と致しまして、1月30日から「ダブル生コマフィルム」（2つセット）の配布が決定！<a href="https://t.co/fJGhQzcBdH">https://t.co/fJGhQzcBdH</a> <a href="https://twitter.com/hashtag/garupan?src=hash">#garupan</a> <a href="https://t.co/XruHZdEhCi">pic.twitter.com/XruHZdEhCi</a></p>&mdash; 「ガールズ＆パンツァー」公式アカウント (@garupan) <a href="https://twitter.com/garupan/status/687921430667853828">2016, 1月 15</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+9億おめでとうございます  
