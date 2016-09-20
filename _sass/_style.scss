@@ -13,6 +13,7 @@ body {
 
 .header {
     text-align: center;
+    margin: 0 auto;
     padding-top: 8px;
     padding-bottom: 4px;
 }
@@ -149,14 +150,18 @@ body {
 
 .wrapper {
     width: 720px;
-    //    height: 700px;
+    height: auto;
     margin: 0 auto;
     margin-bottom: 80px;
 }
 
 .wrapper-above {
-    width: 720px;
+    width: 100%;
     height: 370px;
+}
+
+.works-wrapper {
+    width: 100%;
 }
 
 .link {
@@ -230,13 +235,11 @@ body {
 .articles {
     letter-spacing: -0.5px;
     float: right;
-    width: 700px;
-    padding-right: 5px;
-    padding-left: 5px;
+    width: 547px;
+    padding-left: 10px;
 }
 
 .article {
-    margin: 0 auto;
     width: 360px;
 }
 
@@ -257,6 +260,10 @@ hr {
 //記事リンク
 .post-link {
     font-size: 18px;
+}
+
+.post-list {
+    margin-left: 20px;
 }
 
 //記事投稿日
@@ -310,8 +317,9 @@ hr {
 }
 
 .article-list {
-    width: 550px;
+    width: 100%;
     text-align: center;
+    margin-left: 0px;
 }
 
 .profile-wrapper {
@@ -347,7 +355,9 @@ hr {
     float: right;
     text-align: left;
 }
-
+.works-title{
+    margin-left: 15px;
+}
 .works-small {
     font-size: 15px;
     margin-left: 10px;
@@ -388,6 +398,7 @@ hr {
 }
 
 .sign {
+    width: auto;
     text-align: center;
     color: $grey-color-dark;
     font-size: 12px;
@@ -419,8 +430,7 @@ hr {
         height: 100%;
     }
     .wrapper-above {
-        margin: 0 auto;
-        width: calc(100% - 10px);
+        
         height: 100%;
     }
     .top {
@@ -429,7 +439,7 @@ hr {
     .profile {
         width: calc(100% - 10px);
         height: auto;
-        padding-top: 0px;
+        padding: 0px;
         float: none;
         border: none;
     }
@@ -452,18 +462,21 @@ hr {
         content: "\A";
         white-space: pre;
     }
+    .works-title{
+        margin-left: 0px;
+    }
     .works-small {
         margin-left: 0px;
-    
     }
     .works-small:before {
         content: "\A";
         white-space: pre;
     }
+    
     .articles {
-    width: 100%;
-     
-
+        padding-left: 0px;
+        margin: 0 auto;
+        width: 100%;
         height: auto;
         float: none;
     }
@@ -476,10 +489,10 @@ hr {
     .post-link {
         margin: 0 auto;
         text-align: center;
-        font-size: 14px;
+        font-size: 16px;
     }
-    .post {
-       
+    .post-list {
+        margin-left: 0px;
     }
     .post_data {
         margin: 0 auto;
@@ -489,17 +502,15 @@ hr {
         font-size: 100%;
     }
     .articles {
-        margin: 0 auto;
+        margin-left: 0px;
     }
     .articles-title {
         width: 100%;
     }
-    .area{
+    .area {
         width: calc(100% - 10px);
-
     }
     .item {
         width: 320px;
-     
     }
 }

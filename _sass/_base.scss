@@ -70,8 +70,10 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
-    margin-left: $spacing-unit;
+.wrapper-post{
+    ul, ol {
+        margin-left: $spacing-unit;
+    }
 }
 
 li {
