@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「クロックワーク・プラネット」の静止画MADを作った"
+title: "クロックワーク・プラネットの静止画MADを作った"
 date: 2016-01-29
 category: MAD
 ---

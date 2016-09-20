@@ -34,7 +34,7 @@
 
     .page-link {
         color: $text-color;
-        line-height: $base-line-height;
+        line-height: 0px;
 
        
     }
@@ -96,9 +96,8 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+
     text-align: center;
-    letter-spacing: 6px;
     font-size: 25px;
   
     

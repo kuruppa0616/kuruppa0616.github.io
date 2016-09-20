@@ -56,7 +56,7 @@
 <!--    <script src="jquery.js"></script>-->
     <script src="{{ site.baseurl }}/js/lity.js"></script>
 
-  
+   
 </head>
 
 <body>
@@ -84,7 +84,12 @@
 
         <script type="text/javascript">
  
-           
+ 
+  
+            $(document).ready( function () {
+                $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+            })
+
             
             //時間取得
             DD = new Date();

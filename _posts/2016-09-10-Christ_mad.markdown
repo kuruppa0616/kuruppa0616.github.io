@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "「異世界迷宮の最深部を目指そう」の静止画MADを作った"
+title: "異世界迷宮の最深部を目指そうの静止画MADを作った"
 date: 2016-09-18
 category: MAD
 ---
@@ -176,7 +176,7 @@ Universeなんですが、更新したら色々ガラッと変わっていて混
               + "<div class='nicothumb'>"
               + "<h4><a href=\"{watch_url}\">{title}</a></h4>"
               + "<div class='niconico_wrapper'>"
-              + "<a class='samune' href=\"{watch_url}\">"
+              + "<a class='samune' target='blank' href=\"{watch_url}\">"
               + "<img src=\"{thumbnail_url}\" alt=\"サムネイル\">"
               + "</a>"
               + "<div class='status'>"
