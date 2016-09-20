@@ -46,9 +46,9 @@ Illustrator:フリー素材で拾ってきた歯車のSVGをC4Dで使う用に�
 もっと早くつぶやいてくれれば...maxonさん...   
 <br>
 CINEMA 4D:  
-![1]({{ site.baseurl }}/post-item/2016-1-29-MADcreated/1.png)  
+![1]({{ site.baseurl }}/post-item/2016-1-29-MADcreated/1.jpg)  
 これの歯車が落ちてくる奴と（パージで星が壊れていく感じ）  
-![2]({{ site.baseurl }}/post-item/2016-1-29-MADcreated/2.png)  
+![2]({{ site.baseurl }}/post-item/2016-1-29-MADcreated/2.jpg)  
 背景のよくわからん奴  
 （背景迷ってた時に練習で作ってあった奴ぶち込んだらそれっぽくなった気がした。今は反省してる）    
 <br>
@@ -74,7 +74,7 @@ AEをもうちょっと扱えるようになったらc4dと言うより3DCGの�
 <br>
 このシーンはここをこう拘りましたなんて言うスキルないので悲しいけど  
 一つ、クロプラのMAD作るなら絶対入れたいなーって思ってたシーンが有って  
-![3]({{ site.baseurl }}/post-item/2016-1-29-MADcreated/3.png)  
+![3]({{ site.baseurl }}/post-item/2016-1-29-MADcreated/3.jpg)  
 それがこのマリーと皇女の別れのシーン  
 好きすぎて他のシーンの構想どころか曲すらも決まってなかったのにこのシーンだけは明確に頭のなかに出来てた  
 パペットツールを使って手を動かしたけど不自然になってないか心配  
@@ -84,10 +84,7 @@ AEをもうちょっと扱えるようになったらc4dと言うより3DCGの�
 これ終わったらしばらく動画から離れるつもりだったけど他にやることもないんでチュートリアル動画で暇を潰していくことになりそう  
 お金があれば有料プラグインを買いたい(looksとかE3DとかParticularとかOpticalFlaresとかとかとか)  
 <br>
-という訳で  
-<iframe width="312" height="176" src="http://live.nicovideo.jp/embed/lv249585925" scrolling="no" style="border:solid 1px #d0d0d0; background-color: #f6f6f6;" frameborder="0"><a href="http://live.nicovideo.jp/watch/lv249585925">ニコニコアニメスペシャル「Fate/stay night [Unlimited Blade Works]」#00 - #12一挙放送</a></iframe><iframe width="312" height="176" src="http://live.nicovideo.jp/embed/lv249586527" scrolling="no" style="border:solid 1px #d0d0d0; background-color: #f6f6f6;" frameborder="0"><a href="http://live.nicovideo.jp/watch/lv249586527">ニコニコアニメスペシャル「Fate/stay night [Unlimited Blade Works]」#13 - #25一挙放送</a></iframe>  
-見ような！  
-体は剣で(ry
+
 <br><br><br><br><br>
 アニメ放送するときにもう一度作りたい...
 

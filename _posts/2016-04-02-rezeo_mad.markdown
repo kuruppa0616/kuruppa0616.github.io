@@ -22,13 +22,13 @@ category: MAD
 
 いやマジでエイプリルフールじゃないです。なんか再生数とかランキングがとんでもないことになってます。夢のようです。ありがとうございます。投稿から24時間で再生数3,538 コメント136 マイリスト232、アニメカテゴリ24時間ランキング51位と。いう状況です。1時間に100回以上も見てもらえてるのだと思うと、とても嬉しいです。
 この記事書いてる間にもどんどん順位上がっていってて本当にありがとうございます。ありがとうございます。  
-![ranking51.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\ranking51.png){: .post-image}  
+![ranking51.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\ranking51.jpg){: .post-image}  
 <b>5万再生超えました！ありがとうございます！</b>  
 <b>神回だった7話のおかげでアニメランキング100位以内に返り咲きました！ありがとうございます！</b>  
-![ranking46]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\ranking46.png){: .post-image}  
+![ranking46]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\ranking46.jpg){: .post-image}  
 <b>WhiteFoxさんまじやべえよ！ありがとうございます！</b>  
 <b>10万再生超えました！ありがとうございます！</b>  
-![100k]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\100k.png){: .post-image}  
+![100k]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\100k.jpg){: .post-image}  
 
 さらにTwitterでもとんでもないことになってました。原作者である鼠色猫/長月達平さんが動画を[紹介](https://twitter.com/nezumiironyanko/status/715915503227699200)してくださりました。 それだけではなく素晴らしい[リプライ](https://twitter.com/nezumiironyanko/status/715915915087380481)まで頂きました。通知飛んできた瞬間は何が起こったのか分かりませんでした。今でも分かっていません。まさか原作者の長月達平さんに見て頂けるとは思っていなく、感謝と驚きしかありません。それだけではなく素晴らしいコメントも頂きとても嬉しかったです。本当に、ありがとうございます。これからもスバルくんを傷めつけてください。応援しています！  
 
@@ -73,92 +73,92 @@ waifu2x-caffe
 ・画像の拡大に  
 <br>
 <b>冒頭から適当に解説的な。</b>  
+※一部フッテージ抜けがあったので適当に差し替えてる部分があります。その為動画と少し違う箇所がありますがご了承下さい。  
 
-
-![469.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\469.png){: .post-image}  
+![469.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\469.jpg){: .post-image}  
 
 反時計回りしている時計は時間の巻き戻しを、なんかグネグネしてるやつは魔女の手とか因果律とかそんなのをイメージしています。ここはC4Dで作りました。時計と球体と三角錐のオブジェクトをクローナーで複製してランダムで動かしています。モデリング技術一切ないので時計はフリーの物を拾ってきました。（球体と三角錐は時計だけだと寂しかったので入れました）クネクネしてる奴は[Motion Drop](http://mymotiongraphics.tv/downloads/motion-drop/)っていうプラグインを使いました。  
 <br>
 このあとしばらくキャラ紹介  
 <br>
 
-![1327.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1327.png){: .post-image}  
+![1327.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1327.jpg){: .post-image}  
 <br>  
-![1387.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1387.png){: .post-image}  
+![1387.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1387.jpg){: .post-image}  
 シリアス開始。レムとエミリアの死。見て分かるように1章と2章を1番の中にまとめてしまっています。歌詞と合っていて良い死にシーン。  
 <br>
 
-![1614.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1614.png){: .post-image}  
+![1614.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1614.jpg){: .post-image}  
 対魔獣戦。スバルが鬼がかっているシーン。  
 <br>
 
-![1740.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1740.png){: .post-image}  
+![1740.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1740.jpg){: .post-image}  
 腸狩りさんVS剣聖さん。中央のエフェクトは最近話題の[SABRE](http://www.videocopilot.net/blog/2016/03/new-plug-in-saber-now-available-100-free/)でやっています。簡単にカッコいいのが作れるのですごく便利です。エフェクトにマスクを被せてテキストの「腸狩りVS剣聖」が「化け物VS化け物」に変えていたり遊んでいます。  
 <br>
 
-![1766.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1766.png){: .post-image}
+![1766.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1766.jpg){: .post-image}
 <br>  
-![1944.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1944.png){: .post-image}  
+![1944.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\1944.jpg){: .post-image}  
 シリアス後の癒やし的なシーン。レムとエミリアが可愛いです。エミリアもうちょっとハッキリさせとけばよかった。サムネイルには向いてなかったです。  
 <br>
-![2152.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2152.png){: .post-image}  
+![2152.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2152.jpg){: .post-image}  
 王選メンバーの紹介シーンという名の尺調整。それっぽく額縁に入れてみました。  
 <br>
 
-![2344.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2344.png){: .post-image}  
+![2344.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2344.jpg){: .post-image}  
 地獄の展開開始。スバルとエミリアのすれ違い。小説読んでる時は本当にキツかったです。  
 <br>
 
-![2528.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2528.png){: .post-image}  
+![2528.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2528.jpg){: .post-image}  
 スバルくんの独白。このシーン作ってる時なんかやたら心にグサグサきたけど何ででしょうね。本当はもっとじっくりやりたかったのですが尺の都合で超圧縮。空気も圧縮。  
 <br>
 
-![2608.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2608.png){: .post-image}  
+![2608.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2608.jpg){: .post-image}  
 ↑の独白に対するレムのセリフ。後ろの汚い紙が無くなる→状況、心境の変化をイメージ。レム「Fuck yeah!!」  
 <br>
 
-![2737.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2737.png){: .post-image}  
+![2737.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2737.jpg){: .post-image}  
 まだ続くレムのターン。ずっとレムのターン。ここは一番いい絵になったかなと。レム可愛いここをサムネにするべきだった。何故しなかったのか後悔してる。  
 <br>
 
-![2855.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2855.png){: .post-image}  
+![2855.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2855.jpg){: .post-image}  
 そして一番の盛り上がり場。小説では鳥肌たちました。背景の空は特に意味ありません。なんかそれっぽかったから。
 <br>
 
-![2948.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2948.png){: .post-image}  
+![2948.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\2948.jpg){: .post-image}  
 白鯨討伐戦開始。フリューゲルの大樹っぽいものをC4Dで。尺稼ぎではないです。はい。…はい。ここの木もフリーで拾ってきたやつです
 <br>
 
-![3001.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3001.png){: .post-image}  
+![3001.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3001.jpg){: .post-image}  
 レムが魔法撃ったりクルシュ様の指揮だったりスバルくんの見切れだったり。魔法は魔法陣をSABREで派手にしました。SABREマジ万能。最初はクルシュ様の腕が動く予定でしたが違和感しかなかったので断念。  
 <br>
 
-![3202.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3202.png){: .post-image}  
+![3202.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3202.jpg){: .post-image}  
 白鯨戦一番の盛り上がり場、剣鬼恋歌。なんかやたら疾走感出たせいで次のシーンとの繋がなんか不自然に。パーティクルで花吹雪飛ばすの完全に忘れてました。  
 <br>
 
-![3407.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3407.png){: .post-image}  
+![3407.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3407.jpg){: .post-image}  
 白鯨取ったどおおお。後ろ姿と顔が渋カッコいい。一人称が「私」から「俺」に変わるところ好きです。  
 <br>
 
-![3443.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3443.png){: .post-image}  
+![3443.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3443.jpg){: .post-image}  
 怠惰戦。森の中を駆け回ってる、探索しているイメージです。これもC4Dで木を複製しました。ランダムでサイズや角度も変更。  
 <br>
 
-![3710.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3710.png){: .post-image}  
+![3710.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3710.jpg){: .post-image}  
 ヴィル爺vs怠惰。やったか！？疾走感を出すためにかなりの速度でテキストを出しています。多分読めません。ペテ公の顔芸が輝いてる。この後のエミリアとユリウスのシーン完全に力尽きてた。手抜きでしかなかった。後悔してる。
 <br>
 
-![3844.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3844.png){: .post-image}  
+![3844.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\3844.jpg){: .post-image}  
 ペテルギウス・ロマネティコン、デス！見えざる手（見えないとは言ってない）。剣の軌跡は例のごとくSABREデス！マスクで血が飛び出る感じに。  
 <br>
 
-![4029.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\4029.png){: .post-image}  
+![4029.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\4029.jpg){: .post-image}  
 ハッピーエンドで終わると思った？残念でしたーって言うあれ。3章読んだ人なら殺意が湧いたシーンだと思います。レムの救出を決意するスバル君。ここのセリフとても良いですね。ここはゴチャゴチャ感を出すために色々なものを合成しています。  このMAD全体の超高速逆再生、youtubeのチュートリアル動画見て作った良くわからないアブストラクト的な奴、反時計回りの時計、何かをつかもうとしている手。と言った感じに合成してなんかそれっぽくしています。
 <br>
 ちなみにここの手、誰の手かというと...  
 <br>
-![129.png]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\129.png){: .post-image}  
+![129.jpg]({{ site.baseurl }}\post-item\2016-04-02-rezero_mad\129.jpg){: .post-image}  
 加工前がこれです。もしかした分かる人がいるかもしれません。アニメ「[アルドノア・ゼロ](http://www.aldnoahzero.com/)」の2クール目のOPの貝塚イナホ君の手です。最初この手は無くて「なんか寂しいなー」って思っていました。そして「手を伸ばす感じとか良いよな」ってなってそういやアルドノアのOPにそんなシーンあったなと思い出して、入れたら良い感じになりました。  
 <br>
 <b>動画の全体的な</b>  

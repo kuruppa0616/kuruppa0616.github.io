@@ -52,47 +52,12 @@
     <script type="text/javascript" src="{{ site.baseurl }}/js/jquery.nicothumb.js"></script>
     <!-- animsition.js -->
     <script src="{{ site.baseurl }}/js/animsition.min.js"></script>
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/evil-icons/1.8.0/evil-icons.min.css">
-    <script src="https://cdn.jsdelivr.net/evil-icons/1.8.0/evil-icons.min.js"></script>
-    <script>
-//        //        遷移アニメーション用のタグ付け
-//        jQuery(function ($) {
-//            $('a').addClass("animsition-link");
-//        })
-//
-//        // ページ遷移アニメーション
-//        $(document).ready(function () {
-//            $(".animsition").animsition({
-//                inClass: 'fade-in-down-sm',
-//                outClass: 'fade-out-up-sm',
-//                inDuration: 400,
-//                outDuration: 400,
-//                linkElement: '.animsition-link',
-//                // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-//                loading: true,
-//                loadingParentElement: 'body', //animsition wrapper element
-//                loadingClass: 'animsition-loading',
-//                //                                loadingInner: 'S<img src="{{ site.baseurl }}/logo.svg" />', // e.g '<img src="{{ site.baseurl }}/logo.svg" />'
-//                timeout: false,
-//                timeoutCountdown: 2000,
-//                onLoadEvent: true,
-//                browser: ['animation-duration', '-webkit-animation-duration'],
-//                // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-//                // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-//                overlay: false,
-//                overlayClass: 'animsition-overlay-slide',
-//                overlayParentElement: 'body',
-//                transition: function (url) {
-//                    window.location.href = url;
-//                }
-//            });
-//        });
-    </script>
 
+    <link href="{{ site.baseurl }}/css/lity.css" rel="stylesheet">
+<!--    <script src="jquery.js"></script>-->
+    <script src="{{ site.baseurl }}/js/lity.js"></script>
 
-
-
+  
 </head>
 
 <body>
@@ -110,11 +75,34 @@
 
         {{ content }}
 
-
-
+        <div class="sign">
+<!--            <img src="{{ site.baseurl }}/pen.svg" class="pen" id="pen">-->
+          
+<!--
+            <svg class="pen" width="13px" height="13px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                 Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch 
+                <title>pen</title>
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-379.000000, -359.000000)" fill="#000000">
+                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path d="M323,219 L343.660141,219 L343.660141,217.042095 L323,217.042095 L323,219 Z M330.231049,212.147332 L330.231049,209.51395 L339.088052,201.64513 L340.979487,203.643172 L332.880712,212.147332 L330.231049,212.147332 Z M344,203.64513 L339.144867,199 L328.165035,208.687714 L328.165035,214.105237 L333.764966,214.105237 L344,203.64513 Z" id="edit-[#1482]"></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+-->
+            <svg class="pen" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104.37 104.36"><defs><style>.cls-1{fill:#231815;}</style></defs><title>アセット 1</title><g id="レイヤー_2" data-name="レイヤー 2"><g id="Layer_2" data-name="Layer 2"><path class="cls-1" d="M100,4.39a15,15,0,0,0-21.21,0L75.82,7.33l-5.59,5.58A2.29,2.29,0,0,0,69.14,14L9.57,73.58a2.52,2.52,0,0,0-.32.4v0a2.46,2.46,0,0,0-.24.5l0,.06L.13,101.07a2.5,2.5,0,0,0,3.16,3.16l26.52-8.84.07,0a2.5,2.5,0,0,0,.45-.22l.07,0a2.51,2.51,0,0,0,.39-.32L90.9,34.68h0L97,28.55,100,25.6a15,15,0,0,0,0-21.21ZM71.45,18.76,85.6,32.91,29,89.49,14.87,75.34Zm-65,79.14,6-17.94,12,12ZM89.13,29.37,75,15.23l2.59-2.59L91.73,26.78Zm7.31-7.31-1.18,1.18L81.12,9.1,82.3,7.92A10,10,0,0,1,96.44,22.06Z"/></g></g></svg>
+            <br>
+            kuruppa0616
+        </div>
 
 
         <script type="text/javascript">
+ 
+           
+            
             //時間取得
             DD = new Date();
             Day = DD.getDate();
@@ -139,10 +127,7 @@
                 //19時～23時
                 document.getElementById("header").className = "header header_night";
                 document.getElementById("profile").className = "profile profile_night";
-                document.getElementById("btn_Twitter").className = "btn btn_night";
-                document.getElementById("btn_Bookmeter").className = "btn btn_night";
-                document.getElementById("btn_YouTube").className = "btn btn_night";
-                document.getElementById("btn_NicoNico").className = "btn btn_night";
+  
 
 
             } else if (Hour >= 11) {
@@ -150,10 +135,7 @@
                 //11時～18時
                 document.getElementById("header").className = "header header_noon";
                 document.getElementById("profile").className = "profile profile_noon";
-                document.getElementById("btn_Twitter").className = "btn btn_noon";
-                document.getElementById("btn_Bookmeter").className = "btn btn_noon";
-                document.getElementById("btn_YouTube").className = "btn btn_noon";
-                document.getElementById("btn_NicoNico").className = "btn btn_noon";
+    
 
 
             } else if (Hour >= 4) {
@@ -161,10 +143,7 @@
                 //4時～10時
                 document.getElementById("header").className = "header header_morning";
                 document.getElementById("profile").className = "profile profile_morning";
-                document.getElementById("btn_Twitter").className = "btn btn_morning";
-                document.getElementById("btn_Bookmeter").className = "btn btn_morning";
-                document.getElementById("btn_YouTube").className = "btn btn_morning";
-                document.getElementById("btn_NicoNico").className = "btn btn_morning";
+
 
 
             } else {
@@ -172,10 +151,7 @@
                 //0時～3時
                 document.getElementById("header").className = "header header_night";
                 document.getElementById("profile").className = "profile profile_night";
-                document.getElementById("btn_Twitter").className = "btn btn_night";
-                document.getElementById("btn_Bookmeter").className = "btn btn_night";
-                document.getElementById("btn_YouTube").className = "btn btn_night";
-                document.getElementById("btn_NicoNico").className = "btn btn_night";
+    
 
             }
 

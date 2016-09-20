@@ -56,7 +56,7 @@ waifu2x-caffe
 ### 解説 ###
 
 #### テキストのエフェクト ####
-![text-effect]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\text-effect.png){: .post-image}  
+![text-effect]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\text-effect.jpg){: .post-image}  
 こうしておくとグローの光をドロップシャドウで抑える感じになるので視認性が凄く上がったような気がします。あとこれは白文字にのみかけています。黒字にかけると糞になります。  
 
 #### キャラのテクスチャ ####
@@ -76,70 +76,70 @@ waifu2x-caffe
 こうするといい感じになる気がします。これでもわからないって場合は今回のMADをフレーム送りで見て下さい。（丸投げ）  
 
 #### 最初のクリスタル ####
-![crystal]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\crystal.png){: .post-image}  
+![crystal]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\crystal.jpg){: .post-image}  
 まず冒頭のこれローウェンのいた迷宮30層や、モンスター化した時に体から水晶が生えてきたりしたのでとりあえず降らせました。今読み直したら七色に輝くとか書いてありましたが気のせいです。七色に輝かすとかどうやんだよ。分かればいいんですよ。イメージイメージ。クリスタルが落ちていく→ローウェンの人生の落下とかそういうのをイメージしました（記事書いてる時に）。  
 <br>
-![crystal-c4d]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\crystal-c4d.png){: .post-image}  
+![crystal-c4d]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\crystal-c4d.jpg){: .post-image}  
 C4Dでこんな感じのシーンを作り、AEに持って行きました。見て分かるようにキャラはAEで乗せました。  
 <br>
-![crystal-c4d-render]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\crystal-c4d-render.png){: .post-image}   
+![crystal-c4d-render]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\crystal-c4d-render.jpg){: .post-image}   
 レンダリングする際、RPF形式で書き出すとz深度情報を持たせることができるのでこれで連番で書き出してAEに取り込みます。  
 <br>
-![crystal-ae-effects]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\crystal-ae-effects.png){: .post-image}  
+![crystal-ae-effects]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\crystal-ae-effects.jpg){: .post-image}  
 で、読み込んだフッテージにデプスマットエフェクトをかけて、数値を弄ってやるとこんな感じに分けれるのでキャラの後ろにもオブジェクトを回りこませてあげます。あとは足元に影っぽいの置いてやるといい感じになりました。重くなりそうだったので今回は被写界深度やっていません。で、あとは適当に色調補正してテクスチャ重ねました。あとc4d側でベクターブラーを書き出してモーションブラーをかけれましたがこれも重かったのでやってません。   
 
 #### テキストが燃える####
-![text-burn.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\text-burn.png){: .post-image}  
-ここのテキストが燃えて消えるシーン。魔法の代償でマリアの記憶（と家）が燃えて消える感じとかをイメージしています。particuarで作っています。この[チュートリアル](https://www.youtube.com/watch?v=osfD1JMGjPk)を参考にしました。かなり重いです。文字が消えた後の炎がブワッと飛んで行く奴は次のシーンにも表示させてあります。  
+![text-burn.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\text-burn.jpg){: .post-image}  
+ここのテキストが燃えて消えるシーン。魔法の代償でマリアの記憶（と家）が燃えて消える感じとかをイメージしています。particuarで作っています。この[チュートリアル](https://www.youtube.com/watch?v=osfD1JMGjPk)を参考にしました。かなり重いです。文字が消えた後の炎がブワッと飛んで行く奴は次のシーンに残してあります。  
 <br>
-![text-burn-after.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\text-burn-after.png){: .post-image}  
+![text-burn-after.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\text-burn-after.jpg){: .post-image}  
 これでシーンの繋がってる感が出せたかなと思っています。次のアルティの「そして、遅ればせながら～」のところでも最初は炎エフェクトをかけていましたが、短いシーンだったのでテキストを読めなくなってしまったのでかけないことにしました。ここから数シ～ン挟んだ所にある炎が出てきてテキストが出現するエフェクトはタイムリマップで逆再生しているだけです。  
 <br>
-![maria-burn-hand.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\maria-burn-hand.png){: .post-image}  
+![maria-burn-hand.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\maria-burn-hand.jpg){: .post-image}  
 ここのマリアが腕を焼いてるシーンのエフェクトもテキストのやつを改変したやつです。  
 <br>
-![rowen-recollection.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\rowen-recollection.png){: .post-image}  
-ここから10秒くらい完全に尺稼ぎ。冒頭と合わせてローウェンの人生を表現するのに必要な文章だと思います。しかし文章が長いのでそれだけ尺も長くなってしまい、見せ方を失敗した感。でもこの文章好きです  
+![rowen-recollection.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\rowen-recollection.jpg){: .post-image}  
+ここから10秒くらい完全に尺稼ぎ。しかし冒頭と合わせてローウェンの人生を表現するのに必要な文章だと思います。しかし文章が長いのでそれだけ尺も長くなってしまい、見せ方を失敗した感。でもこの文章好きです  
 <br>
-![rowen-alone.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\rowen-alone.png){: .post-image}  
+![rowen-alone.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\rowen-alone.jpg){: .post-image}  
 一個だけあるクリスタルは一人ぼっちのローウェンをイメージしています。でもテキストが「誰もいなかった。」なので何も無かったほうが良かったかも。ここもc4dで作ってます。  
 <br>
-![christ-snow.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\christ-snow.png){: .post-image}  
+![christ-snow.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\christ-snow.jpg){: .post-image}  
 ここは特にイメージしたものはなく、表紙を派手にした感じです。particularを二つ設置して手前と奥の泡を作っています。あとoptical flaresで色をそれっぽく。テキストはフラクタルノイズをかけた平面にルミナンスキー反転マットをかけています。  
 <br>
-![rowen-christ.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\rowen-christ.png){: .post-image}  
+![rowen-christ.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\rowen-christ.jpg){: .post-image}  
 守護者の宣言がくそかっこいい盛り上げシーン。この前後から一気に青っぽい画面にして雰囲気を変えています。  
 <br>
-![stadium-c4d-far.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\stadium-c4d-far.png){: .post-image}  
+![stadium-c4d-far.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\stadium-c4d-far.jpg){: .post-image}  
 こういう感じのコロッセオのフリーモデルを取ってきてc4dに読み込みます。マテリアルは白色に発光をかけただけです。アンビエントオクルージョンをかけるといい感じに立体感が出ます。ただ背景に使うだけなのでシンプルにしました  
 <br>
-![stadium-c4d-near.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\stadium-c4d-near.png){: .post-image}  
+![stadium-c4d-near.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\stadium-c4d-near.jpg){: .post-image}  
 そして中央部分にキャラクターの画像を配置し、カメラを適当に置きます。キャラクターはカラー設定に背景を透過したキャラ画像（左）を、透過設定にキャラ部分を黒にして透過部分を白にした画像(右)を設定したマテリアルを平面オブジェクトに貼っています。平面の縦横サイズに画像の解像度を入れてやると比率を合わせることができるのでそこから縮小してやれば綺麗になります。  
 <br>
-![kuso.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\kuso.png){: .post-image}  
+![kuso.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\kuso.jpg){: .post-image}  
 しかしこの方法だと時々こんな風に上手く抜けない場合があってどう対処すれば良いのかわかりません。誰かヘルプミー。  
 
 で、またこれもマルチパスで書き出してAEでoptical flaresかけたりテクスチャ合成したり色調補正したりしてそれっぽくします。  
 <br>
-![magicspell1.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\magicspell1.png){: .post-image}  
+![magicspell1.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\magicspell1.jpg){: .post-image}  
 <ruby><rb>親愛なる一閃</rb><rp>《</rp><rt>ディ・ア・レイス</rt><rp>》</rp></ruby>の詠唱、最高ですね。このシーンもともとの空に実写素材の空テクスチャを2枚重ねています。更にOptical FlaresやUniverseのDiffuse Glow Legacyなどをかけて明るくしています。  
 
 Universeなんですが、更新したら色々ガラッと変わっていて混乱しました。リゼロMADとかで使ったやつは全部legacyカテゴリに入れられていて最初分かりませんでした。  
 
 「私」に「ぼく」と「アタシ」の二つのルビを振りたかったのでここだけ縦書きにしています。本当は横書きにしたかったのですが二つのルビをいい感じに振れなかったのでこの形に落ち着きました。  
 <br>
-![magicspell2.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\magicspell2.png){: .post-image}  
+![magicspell2.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\magicspell2.jpg){: .post-image}  
 「私たちが受け継ぐ」のシーン。剣を受け継ぐのは「私たち」なので六巻の表紙に本来はいなかったリーパーを入れました。うまく色を合わせられなかったので諦めてしまったので明らかに浮いていますね。でもここはどうしてもリーパーを入れたかったのでこうなりました。「<ruby><rb>世界</rb><rp>《</rp><rt>アナタ</rt><rp>》</rp></ruby>が拒んだ剣」なのでローウェンの手を地味にパペットで剣から離れるように動かしています。
 
 背景はこれもまたc4dで。クリスタルは冒頭のやつの使いまわしです。中央の剣は六巻の表紙からIllustratorで剣のパスを作成してc4dで押し出しています。輪郭さえ作れればよかったので手などで隠れている部分は適当に補間しています。途中まで宝剣ローウェンとクレセントペクトラズリの直剣を勘違いして使っていたので危なかったです。  
 <br>
-![magicspell3.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\magicspell3.png){: .post-image}  
+![magicspell3.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\magicspell3.jpg){: .post-image}  
 やっぱりこの魔法最高ですね。ローウェンの「亡霊の一閃」に対してのこの「親愛なる一閃」、頭がおかしいくらい熱いですね。家が燃えそうです。ここにもoptical flares、Diffuse Glow Legacy、SABREやテクスチャを重ねてこれでもかっていうくらい光らせています。過剰演出気味になるようにしました。背景は闘技場のやつの使いまわしです。  
 <br>
-![epilogue.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\epilogue.png){: .post-image}  
+![epilogue.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\epilogue.jpg){: .post-image}  
 このサブタイ、最高ですね。この前後のエピローグのテキストは結構長いですが、ここまでやってローウェンの人生の終わりだと思うので入れました。もう完全にローウェンが主人公ですねこれ。リゼロの時は一気に駆け抜けていく感じで締めたので今回はゆっくりと余韻のある終わり方を目指しました。  
 <br>
-![credit.png]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\credit.png){: .post-image}  
+![credit.jpg]({{ site.baseurl }}\post-item\2016-09-09-christ-mad\credit.jpg){: .post-image}  
 本編。本編です。見どころはマリアのおっぱいです。クレジットなんておまけです。  youtubeとかTwitterとかへの転載を見つけてしまったので自己主張として入れました。
 
 ### 構成とか雑記とか ###
