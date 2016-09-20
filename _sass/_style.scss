@@ -446,6 +446,14 @@ hr {
         content: "\A";
         white-space: pre;
     }
+    .works-small {
+        margin-left: 0px;
+    
+    }
+    .works-small:before {
+        content: "\A";
+        white-space: pre;
+    }
     .articles {
         margin: 0 auto;
         width: 100%;
