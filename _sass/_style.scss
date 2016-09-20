@@ -1,0 +1,496 @@
+@charset "utf-8";
+body {
+    background-color: $background-color;
+    position: relative;
+    font-family: $base-font-family;
+    color: $text-color;
+    margin: 0 auto;
+    font-size: $base-font-size;
+}
+
+
+/* ヘッダー */
+
+.header {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+
+.header_morning {
+    background-color: $morning-color;
+}
+
+.header_noon {
+    background-color: $noon-color;
+}
+
+.header_night {
+    background-color: $night-color;
+}
+
+
+/* ロゴ */
+
+.logo {
+    text-align: center;
+    width: 32px;
+    height: 32px;
+}
+
+.logo_even {
+    -webkit-animation: spin_even 20s linear infinite;
+    -moz-animation: spin_even 20s linear infinite;
+    -ms-animation: spin_even 20s linear infinite;
+    -o-animation: spin_even 20s linear infinite;
+    animation: spin_even 20s linear infinite;
+}
+
+@-webkit-keyframes spin_even {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin_even {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes spin_even {
+    0% {
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spin_even {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin_even {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.logo_odd {
+    -webkit-animation: spin_odd 20s linear infinite;
+    -moz-animation: spin_odd 20s linear infinite;
+    -ms-animation: spin_odd 20s linear infinite;
+    -o-animation: spin_odd 20s linear infinite;
+    animation: spin_odd 20s linear infinite;
+}
+
+@-webkit-keyframes spin_odd {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+@-moz-keyframes spin_odd {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(-360deg);
+    }
+}
+
+@-ms-keyframes spin_odd {
+    0% {
+        -ms-transform: rotate(0deg);
+    }
+    100% {
+        -ms-transform: rotate(-360deg);
+    }
+}
+
+@-o-keyframes spin_odd {
+    0% {
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(-360deg);
+    }
+}
+
+@keyframes spin_odd {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+/* wrapper*/
+
+.wrapper {
+    width: 720px;
+    //    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.wrapper-above {
+    width: 720px;
+    height: 370px;
+}
+
+.link {
+    color: $brand-color;
+    text-decoration: none;
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+
+/*自己紹介*/
+
+.profile {
+    border-right: 3px solid;
+    float: left;
+    width: 150px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.profile_morning {
+    /* headrの色と同じ */
+    border-color: $morning-color;
+}
+
+.profile_noon {
+    /* headrの色と同じ */
+    border-color: $noon-color;
+}
+
+.profile_night {
+    /* headrの色と同じ */
+    border-color: $night-color;
+}
+
+//自己紹介文
+.introduction {
+    font-size: 15px;
+    letter-spacing: -1px;
+    line-height: 1.8;
+    .link {
+        letter-spacing: 0.6px;
+    }
+}
+
+.introduction-small {
+    letter-spacing: -0.2px;
+    font-size: 12px;
+}
+
+
+/*プロフォール画像*/
+
+.profile-pic {
+    width: 130px;
+    height: auto;
+    border-radius: 600px;
+    -webkit-border-radius: 600px;
+    -moz-border-radius: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+//記事リスト
+.articles {
+    letter-spacing: -0.5px;
+    float: right;
+    width: 550px;
+}
+
+.article {
+    margin: 0 auto;
+    width: 360px;
+}
+
+//記事リストタイトル
+//記事リスト境目の線
+hr {
+    border: 0;
+    background-color: $grey-color-light;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 1px;
+}
+
+.post {
+    margin-top: 4px;
+}
+
+//記事リンク
+.post-link {
+    font-size: 18px;
+}
+
+//記事投稿日
+.post_data {
+    margin-left: 410px;
+    margin-top: 5px;
+}
+
+//記事内画像
+.post-image {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+//記事内テキスト
+//.posts_text {
+//    font-size: 16px;
+//    margin-top: 10px;
+//    margin-left: 20px;
+//}
+//記事一覧リンク
+.andmore {
+    font-size: 17px;
+    margin-left: 450px;
+}
+
+//ポストhtml
+.index {
+    float: right;
+    width: 150px;
+    margin-top: 160px;
+}
+
+.post-link-index {
+    font-size: 15px;
+}
+
+.page-link {
+    font-size: 15px;
+    margin-right: 14px;
+    color: $brand-color;
+    text-decoration: none;
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+.article-list {
+    width: 550px;
+    text-align: center;
+}
+
+.profile-wrapper {
+    text-align: left;
+}
+
+.post-list-a {
+    text-align: left
+}
+
+.nicothumb {
+    width: auto;
+    height: auto;
+    background-color: #F4F4F2;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.niconico_wrapper {
+    margin-left: 10px;
+    width: 350px;
+    height: 105px;
+}
+
+.samune {
+    float: left;
+}
+
+.status {
+    width: 200px;
+    height: 100px;
+    float: right;
+    text-align: left;
+}
+
+.works-small {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.area {
+    /* boxレイアウトの指定 */
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* 配置したボックスを左右中央寄せにする */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap-reverse;
+    -moz-flex-wrap: wrap-reverse;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.item {
+    width: 220px;
+    height: auto;
+    font-size: 32px;
+    line-height: 100px;
+    text-align: center;
+    color: #444;
+    margin: 5px;
+}
+
+.sign {
+    text-align: center;
+    color: $grey-color-dark;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.pen {
+    width: 13px;
+    height: 15px;
+    margin-bottom: -5px;
+}
+
+.pen path {
+    fill: $grey-color-dark;
+}
+
+
+/*スマホ用*/
+
+@media screen and ( max-width:720px) {
+    .logo {
+        width: 32px;
+        height: 32px;
+    }
+    .wrapper {
+        text-align: center;
+        width: 90%;
+        height: 100%;
+    }
+    .wrapper-above {
+        width: 90%;
+        height: 100%;
+    }
+    .top {
+        padding-right: 20px;
+    }
+    .profile {
+        width: 100%;
+        height: auto;
+        padding-top: 0px;
+        float: none;
+        border: none;
+    }
+    .profile-pic {
+        width: 128Epx;
+        height: auto;
+    }
+    .introduction {
+        font-size: 18px;
+        width: 210px;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 27px;
+    }
+    .introduction-small {
+        line-height: 10px;
+    }
+    .introduction-small:after {
+        content: "\A";
+        white-space: pre;
+    }
+    .works-small {
+        margin-left: 0px;
+    
+    }
+    .works-small:before {
+        content: "\A";
+        white-space: pre;
+    }
+    .articles {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .andmore {
+        margin: 0 auto;
+    }
+    .wrapper-post {
+        text-align: left;
+    }
+    .post_data {
+        margin-left: 0px;
+        text-align: right
+    }
+    .post-link {
+        margin-right: 0px;
+        font-size: 18px;
+    }
+    .post-link {
+        margin: 0px;
+    }
+    .post {
+        margin-left: -13px;
+    }
+    .post_data {
+        text-align: center;
+    }
+    .post-content {
+        font-size: 100%;
+    }
+    .articles {
+        margin: 0 auto;
+    }
+    .articles-title {
+        margin-left: 0px;
+        padding-left: 26px;
+    }
+}
