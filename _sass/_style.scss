@@ -33,7 +33,7 @@ body {
 /* ロゴ */
 
 .logo {
-    text-align: center;
+    margin: 0 auto;
     width: 32px;
     height: 32px;
 }
@@ -230,7 +230,9 @@ body {
 .articles {
     letter-spacing: -0.5px;
     float: right;
-    width: 550px;
+    width: 700px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .article {
@@ -356,6 +358,8 @@ hr {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
     /* 配置したボックスを左右中央寄せにする */
     display: -webkit-box;
     display: -moz-box;
@@ -423,7 +427,7 @@ hr {
         padding-right: 20px;
     }
     .profile {
-        width: 90%;
+        width: 100%;
         height: auto;
         padding-top: 0px;
         float: none;
@@ -457,7 +461,7 @@ hr {
         white-space: pre;
     }
     .articles {
-        margin: 0 auto;
+    
         width: 100%;
         height: auto;
         float: none;
@@ -469,7 +473,7 @@ hr {
         text-align: left;
     }
     .post_data {
-        margin-left: 0px;
+        margin: 0 auto;
         text-align: right
     }
     .post-link {
@@ -477,10 +481,10 @@ hr {
         font-size: 14px;
     }
     .post-link {
-        margin: 0px;
+        margin: 0 auto;
     }
     .post {
-        margin-left: -13px;
+       
     }
     .post_data {
         text-align: center;
