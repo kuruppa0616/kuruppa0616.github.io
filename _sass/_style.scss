@@ -426,6 +426,10 @@ hr {
     .wrapper-above {
         height: 100%;
     }
+    .wrapper-post{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
     .profile {
         width: 100%;
         height: auto;
@@ -482,7 +486,7 @@ hr {
     .post-link {
         //        margin: 0 auto;
         //        text-align: center;
-        font-size: 22px;
+        font-size: 28px;
     }
     .post-list {
         margin-left: 0px;
