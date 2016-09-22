@@ -85,7 +85,7 @@
             if (typeof value === 'undefined') {
                 return typeof currSettings[key] === 'undefined'
                     ? null
-                    : currSettings[key];
+                : currSettings[key];
             }
 
             currSettings[key] = value;
@@ -144,12 +144,12 @@
 
         img
             .on('load', function() {
-                if (this.naturalWidth === 0) {
-                    return failed();
-                }
+            if (this.naturalWidth === 0) {
+                return failed();
+            }
 
-                deferred.resolve(img);
-            })
+            deferred.resolve(img);
+        })
             .on('error', failed)
         ;
 
@@ -179,15 +179,15 @@
         instance
             .element()
             .one('lity:remove', function() {
-                placeholder
-                    .before(el)
-                    .remove()
-                ;
+            placeholder
+                .before(el)
+                .remove()
+            ;
 
-                if (hasHideClass && !el.closest('.lity-content').length) {
-                    el.addClass('lity-hide');
-                }
-            })
+            if (hasHideClass && !el.closest('.lity-content').length) {
+                el.addClass('lity-hide');
+            }
+        })
         ;
 
         return el
@@ -269,7 +269,7 @@
     function winHeight() {
         return document.documentElement.clientHeight
             ? document.documentElement.clientHeight
-            : Math.round(_win.height());
+        : Math.round(_win.height());
     }
 
     function keydown(e) {
@@ -315,23 +315,23 @@
 
             _win
                 .on({
-                    resize: resize,
-                    keydown: keydown
-                })
+                resize: resize,
+                keydown: keydown
+            })
             ;
         }
 
         $('body > *').not(instanceToRegister.element())
             .addClass('lity-hidden')
             .each(function() {
-                var el = $(this);
+            var el = $(this);
 
-                if (undefined !== el.data(_dataAriaHidden)) {
-                    return;
-                }
+            if (undefined !== el.data(_dataAriaHidden)) {
+                return;
+            }
 
-                el.data(_dataAriaHidden, el.attr(_attrAriaHidden) || null);
-            })
+            el.data(_dataAriaHidden, el.attr(_attrAriaHidden) || null);
+        })
             .attr(_attrAriaHidden, 'true')
         ;
     }
@@ -349,9 +349,9 @@
 
             _win
                 .off({
-                    resize: resize,
-                    keydown: keydown
-                })
+                resize: resize,
+                keydown: keydown
+            })
             ;
         }
 
@@ -368,16 +368,16 @@
         show
             .removeClass('lity-hidden')
             .each(function() {
-                var el = $(this), oldAttr = el.data(_dataAriaHidden);
+            var el = $(this), oldAttr = el.data(_dataAriaHidden);
 
-                if (!oldAttr) {
-                    el.removeAttr(_attrAriaHidden);
-                } else {
-                    el.attr(_attrAriaHidden, oldAttr);
-                }
+            if (!oldAttr) {
+                el.removeAttr(_attrAriaHidden);
+            } else {
+                el.attr(_attrAriaHidden, oldAttr);
+            }
 
-                el.removeData(_dataAriaHidden);
-            })
+            el.removeData(_dataAriaHidden);
+        })
         ;
     }
 
@@ -495,11 +495,11 @@
 
             transitionEnd(content.add(element))
                 .always(function() {
-                    content.trigger('lity:remove', [self]);
-                    element.remove();
-                    element = undefined;
-                    deferred.resolve();
-                })
+                content.trigger('lity:remove', [self]);
+                element.remove();
+                element = undefined;
+                deferred.resolve();
+            })
             ;
 
             return deferred.promise();
@@ -515,10 +515,10 @@
             .appendTo('body')
             .focus()
             .on('click', '[data-lity-close]', function(e) {
-                if ($(e.target).is('[data-lity-close]')) {
-                    self.close();
-                }
-            })
+            if ($(e.target).is('[data-lity-close]')) {
+                self.close();
+            }
+        })
             .trigger('lity:open', [self])
         ;
 
@@ -536,14 +536,14 @@
             element
                 .find('.lity-loader')
                 .each(function() {
-                    var loader = $(this);
+                var loader = $(this);
 
-                    transitionEnd(loader)
-                        .always(function() {
-                            loader.remove();
-                        })
-                    ;
+                transitionEnd(loader)
+                    .always(function() {
+                    loader.remove();
                 })
+                ;
+            })
             ;
 
             element
@@ -595,3 +595,162 @@
 
     return lity;
 }));
+
+/**
+ * jQuery.ajax mid - CROSS DOMAIN AJAX
+ * ---
+ * @author James Padolsey (http://james.padolsey.com)
+ * @version 0.11
+ * @updated 12-JAN-10
+ * ---
+ * Note: Read the README!
+ * ---
+ * @info http://james.padolsey.com/javascript/cross-domain-requests-with-jquery/
+ */
+
+jQuery.ajax = (function(_ajax){
+
+    var protocol = location.protocol,
+        hostname = location.hostname,
+        exRegex = RegExp(protocol + '//' + hostname),
+        YQL = 'http' + (/^https/.test(protocol)?'s':'') + '://query.yahooapis.com/v1/public/yql?callback=?',
+        query = 'select * from html where url="{URL}" and xpath="*"';
+
+    function isExternal(url) {
+        return !exRegex.test(url) && /:\/\//.test(url);
+    }
+
+    return function(o) {
+
+        var url = o.url;
+
+        if ( /get/i.test(o.type) && !/json/i.test(o.dataType) && isExternal(url) ) {
+            //If the data type is XML the query is modified
+            query = (o.dataType=="xml")?'select * from xml where url="{URL}"':query; //by default html;
+
+            // Manipulate options so that JSONP-x request is made to YQL
+
+            o.url = YQL;
+            o.dataType = 'json';
+
+            o.data = {
+                q: query.replace(
+                    '{URL}',
+                    url + (o.data ?
+                           (/\?/.test(url) ? '&' : '?') + jQuery.param(o.data)
+                           : '')
+                ),
+                format: 'xml'
+            };
+
+            // Since it's a JSONP request
+            // complete === success
+            if (!o.success && o.complete) {
+                o.success = o.complete;
+                delete o.complete;
+            }
+
+            o.success = (function(_success){
+                return function(data) {
+
+                    if (_success) {
+                        // Fake XHR callback.
+                        _success.call(this, {
+                            responseText: (data.results[0] || '')
+                            // YQL screws with <script>s
+                            // Get rid of them
+                            .replace(/<script[^>]+?\/>|<script(.|\s)*?\/script>/gi, '')
+                        }, 'success');
+                    }
+
+                };
+            })(o.success);
+
+        }
+
+        return _ajax.apply(this, arguments);
+
+    };
+
+})(jQuery.ajax);
+
+/*
+ jQuery Nico Thumb v0.0.1
+ https://github.com/totoraj930/jquery-NicoThumb
+ (c) 2016 Reona Oshima (totoraj).
+ License: MIT
+ http://opensource.org/licenses/mit-license.php
+*/
+$.fn.nicothumb = function (options) {
+    // 設定を作成
+    var setting = $.extend({
+        video_id: "sm9",
+        insert: true,
+        template: ""
+        + "<h1><a href=\"{watch_url}\">{title}</a></h1>"
+        + "<a href=\"{watch_url}\">"
+        + "<img src=\"{thumbnail_url}\" alt=\"サムネイル\">"
+        + "</a>"
+        + "<p>再生数: <span>{view_counter}</span></p>"
+        + "<p>コメント数: <span>{comment_num}</span></p>"
+        + "<p>マイリスト数: <span>{mylist_counter}</span></p>"
+        + "<p>再生時間: <span>{length}</span></p>",
+        callback: function () {}
+    }, options);
+
+    // 定数
+    var THUMB_URL = "http://ext.nicovideo.jp/thumb/";
+
+    // ターゲット
+    var $target = $(this);
+    // video_info
+    var video_info = {
+        status: "ok",//ok or error
+        title: "",
+        view_counter: 0,
+        comment_num: 0,
+        mylist_counter: 0,
+        length: "",
+        watch_url: "",
+        thumbnail_url: ""
+    }
+
+    // YQLを使って取得開始
+    $.ajax({
+        url: THUMB_URL+setting.video_id,
+        type: "GET"
+    })
+        .done(function (res) {
+        var $info = $(res.results[0]),
+            tmp_html = "";
+        if (!$info.find("a.video").text()) {
+            video_info.status = "error";
+            tmp_html = "<h1>取得に失敗しました</h1>";
+        }
+        else {
+            video_info.title = $info.find("a.video").text();
+            video_info.view_counter = $info.find("strong:nth-of-type(1)").eq(0).text();
+            video_info.comment_num = $info.find("strong:nth-of-type(2)").eq(0).text();
+            video_info.mylist_counter = $info.find("strong:nth-of-type(3)").eq(0).text();
+            video_info.length = $info.find("strong:nth-of-type(1)").eq(1).text();
+            video_info.watch_url = $info.find("a.video").attr("href");
+            video_info.thumbnail_url = $info.find("img.video_img").attr("src");
+            tmp_html = setting.template;
+            tmp_html = tmp_html.replace(/{title}/g, video_info.title);
+            tmp_html = tmp_html.replace(/{view_counter}/g, video_info.view_counter);
+            tmp_html = tmp_html.replace(/{comment_num}/g, video_info.comment_num);
+            tmp_html = tmp_html.replace(/{mylist_counter}/g, video_info.mylist_counter);
+            tmp_html = tmp_html.replace(/{length}/g, video_info.length);
+            tmp_html = tmp_html.replace(/{watch_url}/g, video_info.watch_url);
+            tmp_html = tmp_html.replace(/{thumbnail_url}/g, video_info.thumbnail_url);
+        }
+        console.log(tmp_html);
+        if (setting.insert) {
+            $target.html(tmp_html);
+        }
+        // コールバックを呼び出し
+        setting.callback(video_info);
+    });
+
+    return this;
+}
