@@ -337,7 +337,7 @@ hr {
 
 .niconico_wrapper {
     margin-left: 10px;
-    width: 350px;
+    max-width: 350px;
     height: 105px;
 }
 
@@ -422,7 +422,7 @@ hr {
     .wrapper {
         text-align: center;
         margin: 0 auto;
-        width : calc(100% - 40px) ;
+        width: calc(100% - 40px);
         padding-left: 20px;
         padding-right: 20px;
         height: 100%;
@@ -430,9 +430,7 @@ hr {
     .wrapper-above {
         height: 100%;
     }
-    .wrapper-post{
-
-    }
+    .wrapper-post {}
     .profile {
         width: 100%;
         height: auto;
@@ -476,7 +474,7 @@ hr {
     .articles {
         padding-left: 0px;
         margin: 0 auto;
-        width: 100%; 
+        width: 100%;
         height: auto;
         float: none;
     }
@@ -501,8 +499,6 @@ hr {
     .post-content {
         font-size: 100%;
     }
-
-    
     .articles-title {
         width: 100%;
     }
