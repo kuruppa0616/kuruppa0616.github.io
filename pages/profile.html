@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>//kuruppa();</title>
+    <meta name="Author" content="" />
+    <link rel="stylesheet" href="../lib/mdl/material.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="../lib/mdl/material.min.js"></script>
+    <script src="../lib/jquery/jquery.js"></script>
+   
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">//Profile();</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation ">
+                    <a class="mdl-button mdl-js-button" href="../index.html">Home</a>
+                    <a class="mdl-button mdl-js-button" href="../pages/works.html">Works</a>
+                </nav>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="content-wrapper">
+                   
+                    
+                    <div id="markdown_content" class="profile-box"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="../lib/marked/marked.min.js"></script>
+    <script>        
+        <!--    マークダウン読み込み-->
+        $(document).ready(function(){
+            var target = $("#markdown_content");
+            $.ajax({
+                url: "../contents/profile/profile.markdown",
+                success:function(data){
+                    target.append(marked(data));
+                }
+            });
+        });
+    </script>
+</body>
+</html>

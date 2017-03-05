@@ -1,0 +1,86 @@
+{
+    "works": [
+        {
+            "title": "親友へ",
+            "thumb": "christ.jpg",
+            "detail": [
+                {
+                    "tag": "Type",
+                    "text": "静止画MAD"
+                },
+                {
+                    "tag": "Source",
+                    "text": "異世界迷宮の最深部を目指そう"
+                },
+                {
+                    "tag": "Music",
+                    "text": "刹那の果実"
+                }
+            ],
+            "button": [
+                {
+                    "text": "NicoNico",
+                    "url": "http://www.nicovideo.jp/watch/sm29613739"
+                }
+            ]
+        },
+        {
+            "title": "もう一度ここから",
+            "thumb": "rezero.jpg",
+            "detail": [
+                {
+                    "tag": "Type",
+                    "text": "静止画MAD"
+                },
+                {
+                    "tag": "Source",
+                    "text": "Re:ゼロから始める異世界生活"
+                },
+                {
+                    "tag": "Music",
+                    "text": "One More Chance"
+                }
+            ],
+            "button": [
+                {
+                    "text": "NicoNico",
+                    "url": "http://www.nicovideo.jp/watch/sm28549334"
+                }
+            ]
+        },
+        {
+            "title": "時計仕掛けの惑星",
+            "thumb": "clock.jpg",
+            "detail": [
+                {
+                    "tag": "Type",
+                    "text": "静止画MAD"
+                },
+                {
+                    "tag": "Source",
+                    "text": "クロックワーク・プラネット"
+                },
+                {
+                    "tag": "Music",
+                    "text": "コメットルシファー～The Seed and the Sower～"
+                }
+            ],
+            "button": [
+                {
+                    "text": "NicoNico",
+                    "url": "http://www.nicovideo.jp/watch/sm28549334"
+                }
+            ]
+        }
+
+
+
+
+
+
+
+
+
+    ]
+
+}
