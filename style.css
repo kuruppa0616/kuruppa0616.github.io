@@ -35,9 +35,7 @@ body {
     -webkit-flex: 0.5;
     flex: 0.5;
 }
-.profile-main {
-    
-}
+
 .profile-main > p {
     padding-left: 15px;
     line-height: 23px;
@@ -66,8 +64,28 @@ body {
     margin-top: 4px;
    
 }
+@media screen and (orientation: portrait) {
+    .center-box{
+        width: 85%;
+        max-width: none;
+    }
+    .profile{
+        flex-flow: column nowrap;
+    }
+    .profile-main {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .button-box > .mdl-button{
+        font-size: 28px;
+    }
+}
+
 
 /*works*/
+.mdl-navigation > .mdl-button{
+    font-size: 2vh;
+}
 .works-box {
     display: -webkit-box;
     display: -moz-box;
@@ -88,22 +106,38 @@ body {
     margin-top: 10px;
 }
 .mdl-card {
-    width: 320px;
-/*    height: 330px;*/
+    width: 300px;
+    height: 400px;
     margin: 5px;
 }
 .mdl-card__title {
     height: 180px;
 }
-
+.mdl-card__supporting-text{
+    margin-bottom: -20px;
+}
 .mdl-card__supporting-text > p {
     font-size: 0.9em;
-    line-height: 90%;
+    line-height: 1.1em;
 }
 .card-title {
-    font-size: 1.3em;
+    font-size: 150%;
     letter-spacing: 2px
 }
+.mdl-card__actions > .mdl-button{
+
+}
+@media screen and (orientation: portrait) {
+    .mdl-card {
+        width: 80vw;
+        margin: 5px;
+    }
+    .mdl-card__supporting-text > p {
+        font-size: 1.8vw;
+        line-height: 1.1em;
+    }
+}
+
 /*profile*/
 .profile-box {
     margin: 0 auto;
@@ -116,5 +150,6 @@ body {
     padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 30px;
+    font-size: 160%;
     
 }

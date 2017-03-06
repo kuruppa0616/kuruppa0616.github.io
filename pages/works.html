@@ -19,7 +19,8 @@
                     + "') center / cover;\"></div>"
                     +"<div class=\"mdl-card__supporting-text\">"
                     +"<p>Title:<span class=\"card-title\">" + this.title + "</span></p>"
-//                    タイトル以外のタグをあるだけ取得
+                    
+                    //タイトル以外のタグをあるだけ取得
                     $(this.detail).each(function () {
                         test += 
                             "<p>"
@@ -31,7 +32,8 @@
                     test += 
                         "</div>"
                         +"<div class=\"mdl-card__actions mdl-card--border\">"
-//                    ボタンをあるだけ設置
+                    
+                    //ボタンをあるだけ設置
                     $(this.button).each(function () {
                         test += 
                             "<a class=\"mdl-button mdl-js-button\" href=\""
@@ -48,6 +50,7 @@
     </script>
 </head>
 <body>
+    
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">

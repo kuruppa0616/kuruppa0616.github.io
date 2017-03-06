@@ -3227,8 +3227,6 @@ input.mdl-button[type="submit"] {
     font-weight: 400;
     min-height: 200px;
     overflow: hidden;
-    width: 320px;
-    height: auto;
     z-index: 1;
     position: relative;
     background: #fff;
@@ -3300,6 +3298,7 @@ input.mdl-button[type="submit"] {
     overflow: hidden;
     padding: 16px;
     width: 90%;
+    height: 40%;
 }
 
 .mdl-card__supporting-text.mdl-card--border {
@@ -3307,11 +3306,16 @@ input.mdl-button[type="submit"] {
 }
 
 .mdl-card__actions {
+    
     font-size: 16px;
     line-height: normal;
     width: 100%;
+    height: 15%;
     background-color: transparent;
-    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:8px;
     box-sizing: border-box
 }
 
@@ -4674,7 +4678,8 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    box-sizing: border-box
+    box-sizing: border-box;
+   
 }
 
 .mdl-navigation__link {
@@ -4725,7 +4730,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
     display: block;
     position: relative;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 20px;
+    font-size: 3vh;
     line-height: 1;
     letter-spacing: .02em;
     font-weight: 400;
@@ -4914,11 +4919,14 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     margin: 0;
     padding: 0;
     border: none;
-    min-height: 64px;
+    height: 6vh;
+/*    min-height: 64px;*/
     max-height: 1000px;
     z-index: 3;
     background-color: #F8F8F8;
@@ -5047,6 +5055,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
     -ms-flex-align: center;
     align-items: center;
     height: 64px;
+    
     margin: 0;
     padding: 0 40px 0 80px
 }
@@ -5063,8 +5072,8 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
 
 @media screen and (max-width:1024px) {
     .mdl-layout__header-row {
-        height: 56px;
-        padding: 0 16px 0 72px
+/*        height: 56px;*/
+        padding: 0 16px 0 42px
     }
     .mdl-layout--no-drawer-button .mdl-layout__header-row {
         padding-left: 16px
