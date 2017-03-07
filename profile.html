@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <title>//kuruppa();</title>
@@ -43,51 +42,44 @@
     <link rel="stylesheet" href="lib/mdl/material.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="lib/mdl/material.min.js"></script>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="./lib/marked/marked.min.js"></script>
     
 </head>
-
 <body>
-    <div class="center-box">
-
-        <div class="profile">
-
-            <div class="profile-side">
-                <img class="profile-pic" src="img/Profile_mini.jpg">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">//Profile();</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation ">
+                    <a class="mdl-button mdl-js-button" href="index.html">Home</a>
+                    <a class="mdl-button mdl-js-button" href="works.html">Works</a>
+                </nav>
             </div>
-
-            <div class="profile-main">
-                <p ><span class="helloworld">//Hello_World();</span></p>
-                <p><span class="i-am">I'm</span>
-                    <span class="name">Kuruppa0616</span></p>
-                <p>AfterEffectsとCinema4dでMADを中心に映像作ってます。</p>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="content-wrapper">
+                    <div id="markdown_content" class="profile-box"></div>
+                </div>
             </div>
-
-        </div>
-
-
-        <div class="button-box ">
-
-
-            <button class="mdl-button mdl-js-button " onclick="location.href='profile.html'">
-                Profile
-            </button>
-            <button class="mdl-button mdl-js-button" onclick="location.href='works.html'">
-                Works
-            </button>
-            <button class="mdl-button mdl-js-button" onclick="location.href='https://twitter.com/kuruppa0616'">
-                Twitter
-            </button>
-<!--
-            <button class="mdl-button mdl-js-button" >
-                Blog
-            </button>
--->
-
-        </div>
-
+        </main>
     </div>
-    
-    <script>
+    <script>        
+        <!--    マークダウン読み込み-->
+            $(document).ready(function(){
+                var target = $("#markdown_content");
+                $.ajax({
+                    url: "../contents/profile/profile.markdown",
+                    success:function(data){
+                        target.append(marked(data));
+                    }
+                });
+            });
         //            GoogleAnalytics
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -104,7 +96,7 @@
         ga('create', 'UA-75882455-1', 'auto');
         ga('send', 'pageview');
     </script>
-
+    
+    
 </body>
-
 </html>
