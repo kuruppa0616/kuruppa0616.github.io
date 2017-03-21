@@ -36,10 +36,10 @@ AfterEffectsとCinema4Dを使ってかっこいい映像を作ろうと日々も
 ****
 
 ### Skills
-+ **MAD**
++ **Movie**
     + AfterEffects
     + Cinema4D
-+ **WEB**
++ **Web**
     + HTML
     + CSS
 
