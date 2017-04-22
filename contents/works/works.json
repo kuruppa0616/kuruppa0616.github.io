@@ -1,6 +1,30 @@
 {
     "works": [
         {
+            "title": "ここから始めた異世界生活",
+            "thumb": "rezero2.jpg",
+            "detail": [
+                {
+                    "tag": "Type",
+                    "text": "静止画MAD"
+                },
+                {
+                    "tag": "Source",
+                    "text": "Re:ゼロから始める異世界生活"
+                },
+                {
+                    "tag": "Music",
+                    "text": "フェノグラム"
+                }
+            ],
+            "button": [
+                {
+                    "text": "NicoNico",
+                    "url": "http://www.nicovideo.jp/watch/sm30944866"
+                }
+            ]
+        },
+        {
             "title": "親友へ",
             "thumb": "christ.jpg",
             "detail": [
