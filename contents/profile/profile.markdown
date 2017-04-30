@@ -27,6 +27,8 @@
 
 + [**Steam**](http://steamcommunity.com/id/kuruppa0616/)
 
++ [**ほしいものリスト**](http://amzn.asia/6ulBKon)
+
 ****
 
 ### Introduction
