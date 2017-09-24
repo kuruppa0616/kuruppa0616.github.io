@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>//kuruppa();</title>
     <meta name="viewport" content="width=device-width">
     <!--    ファビコン-->
-    <link rel="icon" href="favicon.ico" >
+    <link rel="icon" href="favicon.ico">
 
     <meta name="google-site-verification" content="FAPuB9CpIiyKxTVx8nqG42VIHzSDcQ32tY0ElNS5jOo" />
     <meta name="description" content="時々MAD等の映像を作ってる、頭がくるくるしてるとか言われてるくるっぱのブログです。いつもはラノベとアニメで時間を潰しています。">
@@ -17,7 +18,7 @@
     <meta property="og:type" content="homepage" />
     <meta property="og:title" content="//kuruppa();" />
     <meta property="og:url" content="https://kuruppa.xyz" />
-    <meta property="og:description" content="時々MAD等の映像を作ってる、頭がくるくるしてるとか言われてるくるっぱのブログです。いつもはラノベとアニメで時間を潰しています。" /> 
+    <meta property="og:description" content="時々MAD等の映像を作ってる、頭がくるくるしてるとか言われてるくるっぱのブログです。いつもはラノベとアニメで時間を潰しています。" />
 
     <meta property="og:site_name" content="//kuruppa();" />
     <meta property="og:image" content="/img/ogp-logo.png" />
@@ -31,7 +32,7 @@
 
     <!--     /OGP-->
     <link rel="canonical" href="http://kuruppa.xyz/">
-    
+
     <!--    Google Android-->
     <meta name="theme-color" content="#F4F4F2">
     <meta name="mobile-web-app-capable" content="yes">
@@ -41,50 +42,51 @@
     <link rel="stylesheet" href="lib/mdl/material.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="lib/mdl/material.min.js"></script>
-    <script src="lib/jquery/jquery.js"></script>
     <script>
-        $(function () {
-            $.getJSON("./contents/works/works.json", function (data) {
-                $(data.works).each(function () {
-                    var test =""
-                    +"<div class='mdl-card mdl-shadow--2dp'>"
-                    +"<div class=\"mdl-card__title\" style=\"background: url('./img/" 
-                    + this.thumb
-                    + "') center / cover;\"></div>"
-                    +"<div class=\"mdl-card__supporting-text\">"
-                    +"<p>Title:<span class=\"card-title\">" + this.title + "</span></p>"
-                    
-                    //タイトル以外のタグをあるだけ取得
-                    $(this.detail).each(function () {
-                        test += 
-                            "<p>"
-                            + this.tag
-                            + ":"
-                            + this.text
-                            +"</p>"
-                    })
-                    test += 
-                        "</div>"
-                        +"<div class=\"mdl-card__actions mdl-card--border\">"
-                    
-                    //ボタンをあるだけ設置
-                    $(this.button).each(function () {
-                        test += 
-                            "<a class=\"mdl-button mdl-js-button\" href=\""
-                            +this.url
-                            + "\" target=\"_blank\">"
-                            +this.text
-                            +"</a>"
-                    })          
-                    test += "</div>"                 
-                    $('.works-box').append(test);
-                })               
-            })
-        });
+        httpObj = new XMLHttpRequest();
+        httpObj.open("get", "./contents/works/works.json", true);
+        httpObj.onload = function () {
+            var data = JSON.parse(this.responseText);
+            for (properties of data.works) {
+                var test = "" +
+                    "<div class='mdl-card mdl-shadow--2dp'>" +
+                    "<div class=\"mdl-card__title\" style=\"background: url('./img/" +
+                    properties.thumb +
+                    "') center / cover;\"></div>" +
+                    "<div class=\"mdl-card__supporting-text\">" +
+                    "<p>Title:<span class=\"card-title\">" + properties.title + "</span></p>";
+
+                //詳細タグを全て表示
+                for (detail of properties.detail) {
+                    test +=
+                        "<p>" +
+                        detail.tag +
+                        ":" +
+                        detail.text +
+                        "</p>";
+                }
+                test +=
+                    "</div>" +
+                    "<div class=\"mdl-card__actions mdl-card--border\">";
+
+                for (button of properties.button) {
+                    test +=
+                        "<a class=\"mdl-button mdl-js-button\" href=\"" +
+                        button.url +
+                        "\" target=\"_blank\">" +
+                        button.text +
+                        "</a>"
+                }
+                test += "</div>"
+                document.querySelector('#works-box').innerHTML += test;
+            }
+        }
+        httpObj.send(null);
     </script>
 </head>
+
 <body>
-    
+
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
         <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
@@ -98,11 +100,12 @@
         </header>
         <main class="mdl-layout__content">
             <div class="page-content content-wrapper ">
-                <div class="works-box">               
-                </div>  
+                <div id="works-box">
+                </div>
             </div>
         </main>
     </div>
-    
+
 </body>
+
 </html>
