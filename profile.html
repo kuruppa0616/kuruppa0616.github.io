@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <title>//kuruppa();</title>
     <meta name="viewport" content="width=device-width">
     <!--    ファビコン-->
-    <link rel="icon" href="favicon.ico" >
+    <link rel="icon" href="favicon.ico">
 
     <meta name="google-site-verification" content="FAPuB9CpIiyKxTVx8nqG42VIHzSDcQ32tY0ElNS5jOo" />
     <meta name="description" content="時々MAD等の映像を作ってる、頭がくるくるしてるとか言われてるくるっぱのブログです。いつもはラノベとアニメで時間を潰しています。">
@@ -17,7 +18,7 @@
     <meta property="og:type" content="homepage" />
     <meta property="og:title" content="//kuruppa();" />
     <meta property="og:url" content="https://kuruppa.xyz" />
-    <meta property="og:description" content="時々MAD等の映像を作ってる、頭がくるくるしてるとか言われてるくるっぱのブログです。いつもはラノベとアニメで時間を潰しています。" /> 
+    <meta property="og:description" content="時々MAD等の映像を作ってる、頭がくるくるしてるとか言われてるくるっぱのブログです。いつもはラノベとアニメで時間を潰しています。" />
 
     <meta property="og:site_name" content="//kuruppa();" />
     <meta property="og:image" content="/img/ogp-logo.png" />
@@ -42,10 +43,10 @@
     <link rel="stylesheet" href="lib/mdl/material.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="lib/mdl/material.min.js"></script>
-    <script src="lib/jquery/jquery.js"></script>
     <script src="./lib/marked/marked.min.js"></script>
-    
+
 </head>
+
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
         <header class="mdl-layout__header">
@@ -69,20 +70,18 @@
             </div>
         </main>
     </div>
-    <script>        
-        <!--    マークダウン読み込み-->
-            $(document).ready(function(){
-                var target = $("#markdown_content");
-                $.ajax({
-                    url: "../contents/profile/profile.markdown",
-                    success:function(data){
-                        target.append(marked(data));
-                    }
-                });
-            });
-  
+    <script>
+        var markdownText;       
+        httpObj = new XMLHttpRequest();
+        httpObj.open("get", "./contents/profile/profile.markdown", true);
+        httpObj.onload = function () {
+            markdownText =  marked(this.responseText);
+            document.querySelector('#markdown_content').innerHTML =markdownText;
+        }
+        httpObj.send(null);
     </script>
-    
-    
+
+
 </body>
+
 </html>

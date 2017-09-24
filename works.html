@@ -30,7 +30,6 @@
     <meta property="fb:app_id" content="1505176573124591" />
 
     <!--     /OGP-->
-
     <link rel="canonical" href="http://kuruppa.xyz/">
     
     <!--    Google Android-->
@@ -45,11 +44,11 @@
     <script src="lib/jquery/jquery.js"></script>
     <script>
         $(function () {
-            $.getJSON("../contents/works/works.json", function (data) {
+            $.getJSON("./contents/works/works.json", function (data) {
                 $(data.works).each(function () {
                     var test =""
                     +"<div class='mdl-card mdl-shadow--2dp'>"
-                    +"<div class=\"mdl-card__title\" style=\"background: url('../img/" 
+                    +"<div class=\"mdl-card__title\" style=\"background: url('./img/" 
                     + this.thumb
                     + "') center / cover;\"></div>"
                     +"<div class=\"mdl-card__supporting-text\">"
