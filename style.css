@@ -124,7 +124,8 @@ body {
     line-height: 1.1em;
 }
 .card-title {
-    font-size: 150%;
+    font-size: 120%;
+    font-weight: bold;
     letter-spacing: 2px
 }
 .mdl-card__actions > .mdl-button{
