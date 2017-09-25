@@ -1,12 +1,10 @@
 {
-    "works": [
-        {
+    "works": [{
             "title": "ここから始めた異世界生活",
             "thumb": "rezero2.jpg",
-            "detail": [
-                {
+            "details": [{
                     "tag": "Type",
-                    "text": "静止画MAD"
+                    "text": "静止画 & アニメMAD"
                 },
                 {
                     "tag": "Source",
@@ -17,18 +15,15 @@
                     "text": "フェノグラム"
                 }
             ],
-            "button": [
-                {
-                    "text": "NicoNico",
-                    "url": "http://www.nicovideo.jp/watch/sm30944866"
-                }
-            ]
+            "buttons": [{
+                "text": "NicoNico",
+                "url": "http://www.nicovideo.jp/watch/sm30944866"
+            }]
         },
         {
             "title": "親友へ",
             "thumb": "christ.jpg",
-            "detail": [
-                {
+            "details": [{
                     "tag": "Type",
                     "text": "静止画MAD"
                 },
@@ -41,18 +36,15 @@
                     "text": "刹那の果実"
                 }
             ],
-            "button": [
-                {
-                    "text": "NicoNico",
-                    "url": "http://www.nicovideo.jp/watch/sm29613739"
-                }
-            ]
+            "buttons": [{
+                "text": "NicoNico",
+                "url": "http://www.nicovideo.jp/watch/sm29613739"
+            }]
         },
         {
             "title": "もう一度ここから",
             "thumb": "rezero.jpg",
-            "detail": [
-                {
+            "details": [{
                     "tag": "Type",
                     "text": "静止画MAD"
                 },
@@ -65,18 +57,15 @@
                     "text": "One More Chance"
                 }
             ],
-            "button": [
-                {
-                    "text": "NicoNico",
-                    "url": "http://www.nicovideo.jp/watch/sm28549334"
-                }
-            ]
+            "buttons": [{
+                "text": "NicoNico",
+                "url": "http://www.nicovideo.jp/watch/sm28549334"
+            }]
         },
         {
             "title": "時計仕掛けの惑星",
             "thumb": "clock.jpg",
-            "detail": [
-                {
+            "details": [{
                     "tag": "Type",
                     "text": "静止画MAD"
                 },
@@ -89,22 +78,11 @@
                     "text": "コメットルシファー～The Seed and the Sower～"
                 }
             ],
-            "button": [
-                {
-                    "text": "NicoNico",
-                    "url": "http://www.nicovideo.jp/watch/sm28549334"
-                }
-            ]
+            "buttons": [{
+                "text": "NicoNico",
+                "url": "http://www.nicovideo.jp/watch/sm28549334"
+            }]
         }
-
-
-
-
-
-
-
-
-
     ]
 
 }

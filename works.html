@@ -42,49 +42,13 @@
     <link rel="stylesheet" href="lib/mdl/material.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="lib/mdl/material.min.js"></script>
-    <script>
-        httpObj = new XMLHttpRequest();
-        httpObj.open("get", "./contents/works/works.json", true);
-        httpObj.onload = function () {
-            var data = JSON.parse(this.responseText);
-            for (properties of data.works) {
-                var test = "" +
-                    "<div class='mdl-card mdl-shadow--2dp'>" +
-                    "<div class=\"mdl-card__title\" style=\"background: url('./img/" +
-                    properties.thumb +
-                    "') center / cover;\"></div>" +
-                    "<div class=\"mdl-card__supporting-text\">" +
-                    "<p>Title:<span class=\"card-title\">" + properties.title + "</span></p>";
 
-                //詳細タグを全て表示
-                for (detail of properties.detail) {
-                    test +=
-                        "<p>" +
-                        detail.tag +
-                        ":" +
-                        detail.text +
-                        "</p>";
-                }
-                test +=
-                    "</div>" +
-                    "<div class=\"mdl-card__actions mdl-card--border\">";
+    <!-- 開発時用 -->
+    <!-- <script src="lib/vuejs/vue.dev.js"></script> -->
+    <!-- 本番用 -->
+    <script src="lib/vuejs/vue.main.js"></script>
 
-                for (button of properties.button) {
-                    test +=
-                        "<a class=\"mdl-button mdl-js-button\" href=\"" +
-                        button.url +
-                        "\" target=\"_blank\">" +
-                        button.text +
-                        "</a>"
-                }
-                test += "</div>"
-                document.querySelector('.works-box').innerHTML += test;
-            }
-        }
-        httpObj.send(null);
-    </script>
 </head>
-
 <body>
 
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
@@ -101,10 +65,36 @@
         <main class="mdl-layout__content">
             <div class="page-content content-wrapper ">
                 <div class="works-box">
+                    <div class="mdl-card mdl-shadow--2dp" v-for="work in works">
+                        <div class="mdl-card__title" v-bind:style="'background: url(./img/' + work.thumb + ') center / cover;'"></div>
+                        <div class="mdl-card__supporting-text">
+                            <p>Title:<span class="card-title"> {{work.title}}</span></p>
+                            <div class="works-detail">
+                                <p v-for="detail in work.details">
+                                    {{detail.tag}}: {{detail.text}}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a v-for="button in work.buttons" class="mdl-button mdl-js-button" v-bind:href="button.url" target="_blank">{{button.text}}</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
     </div>
+    <script>
+        httpObj = new XMLHttpRequest();
+        httpObj.open("get", "./contents/works/works.json", true);
+        httpObj.onload = function () {
+            var jsonData = JSON.parse(this.responseText);
+            var vue = new Vue({
+                el: '.works-box',
+                data: jsonData
+            });
+        }
+        httpObj.send(null);
+    </script>
 
 </body>
 
