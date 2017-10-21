@@ -3,7 +3,7 @@
 
 + **性別** : 男
 
-+ **誕生日** : 1997/06/16
++ **誕生日** : 199X/06/16
 
 + **職業** : 学生
 
@@ -33,7 +33,8 @@
 
 ### Introduction
 くるっぱといいます。某ゆるキャラと名前がかぶっていますが一切関係はありません。  
-AfterEffectsとCinema4Dを使ってかっこいい映像を作ろうと日々もがいています。
+AfterEffectsとCinema4Dを使ってかっこいい映像を作ろうと日々もがいています。  
+たまにプログラム書いたりとかもしてます。
     
 ****
 
@@ -41,6 +42,9 @@ AfterEffectsとCinema4Dを使ってかっこいい映像を作ろうと日々も
 + **Movie**
     + AfterEffects
     + Cinema4D
++ **Programming**
+    + Java
+    + JavaScript
 + **Web**
     + HTML
     + CSS

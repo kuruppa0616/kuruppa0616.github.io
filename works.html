@@ -49,6 +49,7 @@
     <script src="lib/vuejs/vue.main.js"></script>
 
 </head>
+
 <body>
 
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
@@ -68,8 +69,9 @@
                     <div class="mdl-card mdl-shadow--2dp" v-for="work in works">
                         <div class="mdl-card__title" v-bind:style="'background: url(./img/' + work.thumb + ') center / cover;'"></div>
                         <div class="mdl-card__supporting-text">
-                            <p>Title:<span class="card-title"> {{work.title}}</span></p>
+
                             <div class="works-detail">
+                                <p>Title:<span class="card-title"> {{work.title}}</span></p>
                                 <p v-for="detail in work.details">
                                     {{detail.tag}}: {{detail.text}}
                                 </p>

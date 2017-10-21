@@ -1,5 +1,26 @@
 {
     "works": [{
+            "title": "それが答え",
+            "thumb": "rezero3.jpg",
+            "details": [{
+                    "tag": "Type",
+                    "text": "静止画MAD"
+                },
+                {
+                    "tag": "Source",
+                    "text": "Re:ゼロから始める異世界生活"
+                },
+                {
+                    "tag": "Music",
+                    "text": "Dear answer"
+                }
+            ],
+            "buttons": [{
+                "text": "NicoNico",
+                "url": "http://www.nicovideo.jp/watch/sm31902950"
+            }]
+        },
+        {
             "title": "ここから始めた異世界生活",
             "thumb": "rezero2.jpg",
             "details": [{
