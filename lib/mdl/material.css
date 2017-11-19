@@ -4730,7 +4730,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
     display: block;
     position: relative;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-size: 3vh;
+    font-size: 2em;
     line-height: 1;
     letter-spacing: .02em;
     font-weight: 400;
@@ -4926,7 +4926,7 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple,
     padding: 0;
     border: none;
     height: 6vh;
-/*    min-height: 64px;*/
+    min-height: 40px;
     max-height: 1000px;
     z-index: 3;
     background-color: #F8F8F8;

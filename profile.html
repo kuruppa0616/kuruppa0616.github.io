@@ -39,9 +39,11 @@
     <meta name="mobile-web-app-capable" content="yes">
 
     <!--    CSS,JS-->
-    <link rel="stylesheet" href="lib/normalize/normalize.css">
-    <link rel="stylesheet" href="lib/mdl/material.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--    CSS,JS-->
+    <!-- <link rel="stylesheet" href="lib/normalize/normalize.css">
+        <link rel="stylesheet" href="lib/mdl/material.css">
+        <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./dist/all.min.css">
     <script src="lib/mdl/material.min.js"></script>
     <script src="./lib/marked/marked.min.js"></script>
 
@@ -71,12 +73,12 @@
         </main>
     </div>
     <script>
-        var markdownText;       
+        var markdownText;
         httpObj = new XMLHttpRequest();
         httpObj.open("get", "./contents/profile/profile.markdown", true);
         httpObj.onload = function () {
-            markdownText =  marked(this.responseText);
-            document.querySelector('#markdown_content').innerHTML =markdownText;
+            markdownText = marked(this.responseText);
+            document.querySelector('#markdown_content').innerHTML = markdownText;
         }
         httpObj.send(null);
     </script>

@@ -101,7 +101,7 @@ body {
 /*works*/
 
 .mdl-navigation>.mdl-button {
-    font-size: 2vh;
+    font-size: 1.4em;
 }
 
 .works-box {
@@ -165,7 +165,6 @@ body {
     }
 }
 
-
 /*profile*/
 
 .profile-box {
@@ -180,8 +179,4 @@ body {
     padding-left: 20px;
     padding-right: 30px;
     font-size: 160%;
-}
-
-[v-cloak] {
-    display: none;
 }

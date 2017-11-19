@@ -38,9 +38,10 @@
     <meta name="mobile-web-app-capable" content="yes">
 
     <!--    CSS,JS-->
-    <link rel="stylesheet" href="lib/normalize/normalize.css">
-    <link rel="stylesheet" href="lib/mdl/material.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" href="lib/normalize/normalize.css">
+        <link rel="stylesheet" href="lib/mdl/material.css">
+        <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./dist/all.min.css">
     <script src="lib/mdl/material.min.js"></script>
 
     <!-- 開発時用 -->
@@ -66,7 +67,7 @@
         <main class="mdl-layout__content">
             <div class="page-content content-wrapper ">
                 <div class="works-box">
-                    <div v-cloak class="mdl-card mdl-shadow--2dp" v-for="work in works">
+                    <div class="mdl-card mdl-shadow--2dp" v-for="work in works">
                         <div class="mdl-card__title" v-bind:style="'background: url(./img/' + work.thumb + ') center / cover;'"></div>
                         <div class="mdl-card__supporting-text">
 
@@ -74,7 +75,7 @@
                                 <p>Title:
                                     <span class="card-title"> {{work.title}}</span>
                                 </p>
-                                
+
                                 <p v-for="detail in work.details">
                                     {{detail.tag}}: {{detail.text}}
                                 </p>
@@ -99,6 +100,7 @@
             });
         }
         httpObj.send(null);
+
     </script>
 
 </body>
