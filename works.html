@@ -66,12 +66,15 @@
         <main class="mdl-layout__content">
             <div class="page-content content-wrapper ">
                 <div class="works-box">
-                    <div class="mdl-card mdl-shadow--2dp" v-for="work in works">
+                    <div v-cloak class="mdl-card mdl-shadow--2dp" v-for="work in works">
                         <div class="mdl-card__title" v-bind:style="'background: url(./img/' + work.thumb + ') center / cover;'"></div>
                         <div class="mdl-card__supporting-text">
 
                             <div class="works-detail">
-                                <p>Title:<span class="card-title"> {{work.title}}</span></p>
+                                <p>Title:
+                                    <span class="card-title"> {{work.title}}</span>
+                                </p>
+                                
                                 <p v-for="detail in work.details">
                                     {{detail.tag}}: {{detail.text}}
                                 </p>

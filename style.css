@@ -181,3 +181,7 @@ body {
     padding-right: 30px;
     font-size: 160%;
 }
+
+[v-cloak] {
+    display: none;
+}
