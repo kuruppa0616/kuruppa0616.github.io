@@ -1,5 +1,30 @@
 {
-    "works": [{
+    "works": [
+        {
+            "title": "各々の正義を",
+            "thumb": "cyber.jpg",
+            "details": [{
+                "tag": "Type",
+                "text": "静止画MAD"
+            },
+                        {
+                            "tag": "Source",
+                            "text": "CyberRebeat"
+                        },
+                        {
+                            "tag": "Music",
+                            "text": "カオスロジック"
+                        }
+                       ],
+            "buttons": [{
+                "text": "NicoNico",
+                "url": "http://www.nicovideo.jp/watch/sm32537649"
+            },{
+                "text": "Youtube",
+                "url": "https://youtu.be/1X6OV45S5nA"
+            }]
+        },
+        {
             "title": "それが答え",
             "thumb": "rezero3.jpg",
             "details": [{
@@ -18,6 +43,9 @@
             "buttons": [{
                 "text": "NicoNico",
                 "url": "http://www.nicovideo.jp/watch/sm31902950"
+            },{
+                "text": "Youtube",
+                "url": "https://youtu.be/8A1skSePQHg"
             }]
         },
         {
@@ -39,6 +67,9 @@
             "buttons": [{
                 "text": "NicoNico",
                 "url": "http://www.nicovideo.jp/watch/sm30944866"
+            },{
+                "text": "Youtube",
+                "url": "https://youtu.be/oRHP1cxEMPY"
             }]
         },
         {
@@ -60,6 +91,9 @@
             "buttons": [{
                 "text": "NicoNico",
                 "url": "http://www.nicovideo.jp/watch/sm29613739"
+            },{
+                "text": "Youtube",
+                "url": "https://youtu.be/Y4A58xjY-AA"
             }]
         },
         {
@@ -81,6 +115,9 @@
             "buttons": [{
                 "text": "NicoNico",
                 "url": "http://www.nicovideo.jp/watch/sm28549334"
+            },{
+                "text": "Youtube",
+                "url": "https://youtu.be/uewEtBd3Srg"
             }]
         },
         {
@@ -102,6 +139,9 @@
             "buttons": [{
                 "text": "NicoNico",
                 "url": "http://www.nicovideo.jp/watch/sm28549334"
+            },{
+                "text": "Youtube",
+                "url": "https://youtu.be/LtieGlCUcjA"
             }]
         }
     ]
