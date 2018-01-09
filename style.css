@@ -124,9 +124,14 @@ body {
     margin-top: 10px;
 }
 
-.works-detail{
-/*    line-height: 3.1em;*/
+.works-detail {
+    /*    line-height: 3.1em;*/
     font-size: 200px;
+}
+
+.works_tag {
+    display: inline-block;
+    width: 4em;
 }
 
 .mdl-card {
@@ -149,10 +154,8 @@ body {
 }
 
 .card-title {
-    font-size: 120%;
-    font-weight: bold;
     letter-spacing: 2px;
-        line-height: 0px;
+    line-height: 0px;
 }
 
 .mdl-card__actions>.mdl-button {}
@@ -170,6 +173,7 @@ body {
         font-size: 1.7em;
     }
 }
+
 
 /*profile*/
 

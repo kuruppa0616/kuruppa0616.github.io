@@ -72,12 +72,13 @@
                         <div class="mdl-card__supporting-text">
 
                             <div class="works-detail">
-                                <p>Title:
+                                <p>
+                                    <span class="works_tag">Title:</span>
                                     <span class="card-title"> {{work.title}}</span>
                                 </p>
 
                                 <p v-for="detail in work.details">
-                                    {{detail.tag}}: {{detail.text}}
+                                    <span class="works_tag">{{detail.tag}}:</span> {{detail.text}}
                                 </p>
                             </div>
                         </div>
