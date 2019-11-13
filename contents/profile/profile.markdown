@@ -44,7 +44,7 @@ AfterEffectsとCinema4Dを使ってかっこいい映像を作ろうと日々も
     + Cinema4D
 + **Programming**
     + Java
-    + JavaScripta
+    + JavaScript
         + ちょっとReact
         + ちょっとtypescript
     + Unity
